@@ -1,4 +1,4 @@
-# JAHID2811.GitHub.IO
+# JAHID2811.GitHub.io
 
 #### maintain your loyalty.
 
