@@ -1,5 +1,5 @@
-# JAHID2811.GitHub.io
+# JAHIDofficial.GitHub.io
 
 #### maintain your loyalty
 
-#### developed by [JIS](https://jahid2811.github.io) &copy;
+#### developed by [JIS](https://jahidofficial.github.io) &copy;
