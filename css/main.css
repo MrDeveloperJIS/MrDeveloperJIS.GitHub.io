@@ -79,10 +79,11 @@ nav ul li a:hover {
 	border-bottom: 2px solid black;
 }
 
-.hello marquee {
+.hello marquee,
+.hello p {
 	padding-top: 10px;
 	padding-bottom: 2px;
-/*	border-bottom: 1px solid black;*/
+	border-bottom: 1px solid black;
 }
 
 
