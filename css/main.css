@@ -75,9 +75,17 @@ nav ul li a:hover {
 
 .hello h1 {
 	text-align: center;
-	padding-bottom: 12px;
+	padding-bottom: 5px;
 	border-bottom: 2px solid black;
 }
+
+.hello marquee {
+	padding-top: 10px;
+	padding-bottom: 2px;
+/*	border-bottom: 1px solid black;*/
+}
+
+
 
 
 
