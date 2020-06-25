@@ -2,6 +2,10 @@ body {
 	background-attachment: scroll;
 }
 
+
+
+/*-- navigation bar --*/
+
 nav {
 	background-color: rgba(0, 0, 0, .8);
 	position: fixed;
@@ -30,15 +34,15 @@ nav ul:after {
 nav ul li {
 	background: black;
 	list-style: none;
-	line-height: 50%;
+	line-height: 60%;
 	float: right;
 	display: inline-table;
 }
 
 nav ul li a {
-	padding: 29px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding: 28px;
+	padding-left: 28px;
+	padding-right: 28px;
 	text-decoration: none;
 	display: block;
 	color: white;
@@ -58,6 +62,52 @@ nav ul li a:hover {
 	margin-top: -10px;
 	margin-bottom: 50px;
 }
+
+
+
+/*-- index.html --*/
+
+.hello {
+	padding-bottom: 25px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.hello h1 {
+	text-align: center;
+	padding-bottom: 12px;
+	border-bottom: 2px solid black;
+}
+
+
+
+/*-- about.html --*/
+
+#about-me-table {
+	border: 0px solid black;
+	width: 100%;
+	font-size: 20px;
+}
+
+#about-me-table tr {
+	
+}
+
+#about-me-table tr td {
+	float: right;
+	padding: 5px;
+	margin: 5px;
+	background: rgba(0, 0, 255, .8);
+	color: white;
+}
+
+#about-me-table tr th {
+	padding-left: 40px;
+}
+
+
+
+/*-- contact.html --*/
 
 #last {
 	padding-left:  100px;
@@ -83,37 +133,9 @@ nav ul li a:hover {
 	color: white;
 }
 
-.hello {
-	padding-bottom: 20px;
-	padding-left: 25%;
-	padding-right: 25%;
-}
 
-.hello h1 {
-	text-align: center;
-	padding-bottom: 25px;
-	border-bottom: 2px solid black;
-}
 
-#about-me-table {
-	border: 0px solid black;
-	width: 100%;
-	font-size: 20px;
-}
-
-#about-me-table tr {}
-
-#about-me-table tr td {
-	float: right;
-	padding: 5px;
-	margin: 5px;
-	background: rgba(0, 0, 255, .8);
-	color: white;
-}
-
-#about-me-table tr th {
-	padding-left: 40px;
-}
+/*-- footer section --*/
 
 footer {
 	margin-left: 10%;
