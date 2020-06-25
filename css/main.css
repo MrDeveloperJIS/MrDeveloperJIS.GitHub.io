@@ -56,12 +56,16 @@ nav ul li a:hover {
 	height: 80px;
 	background-attachment: fixed;
 	margin-top: -10px;
-	]
+	margin-bottom: 50px;
+}
+
+#last {
+	padding-left:  100px;
+	padding-right: 180px;
 }
 
 #last h1 {
 	font-size: 70px;
-	padding-top: 40px;
 	padding-left: 20px;
 	color: white;
 	font-family: 'Sacramento', serif;
@@ -103,7 +107,6 @@ nav ul li a:hover {
 
 #about-me-table tr th {
 	padding-left: 40px;
-	margin: 5px;
 }
 
 footer {
