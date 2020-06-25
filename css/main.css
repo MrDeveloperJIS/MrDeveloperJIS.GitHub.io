@@ -65,15 +65,21 @@ nav ul li a:hover {
 }
 
 #last h1 {
-	font-size: 70px;
-	padding-left: 20px;
+	font-size: 100px;
+	padding-left: 28px;
 	color: white;
 	font-family: 'Sacramento', serif;
 	text-shadow: 15px 15px 15px;
 }
 
+#last hr {
+	border: 2px solid white; 
+	width:800px;
+	margin-bottom: 28px;
+}
+
 #last p {
-	font-size: 25px;
+	font-size: 40px;
 	color: white;
 }
 
