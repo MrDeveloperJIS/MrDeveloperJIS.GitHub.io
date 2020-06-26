@@ -86,7 +86,11 @@ nav ul li a:hover {
 	border-bottom: 1px solid black;
 }
 
-
+.hello img {
+	border: 9px solid #eee; 
+	border-radius: 100%; 
+	margin: 10px;
+}
 
 
 
