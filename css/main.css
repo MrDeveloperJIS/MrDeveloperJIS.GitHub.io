@@ -86,10 +86,12 @@ nav ul li a:hover {
 	border-bottom: 1px solid black;
 }
 
-.hello img {
-	border: 9px solid #eee; 
-	border-radius: 100%; 
-	margin: 10px;
+.hello img { 
+	width: 90%; 
+	height: auto; 
+	vertical-align: middle; 
+	border: 10px solid #eee; 
+	border-radius: 130px;
 }
 
 
