@@ -91,8 +91,8 @@ nav ul li a:hover {
 	height: auto; 
 	vertical-align: middle; 
 	border: 10px solid #eee; 
-	border-radius: 250px;
-	margin-top: 10px;
+	border-radius: 300px;
+	margin: 10px;
 }
 
 
@@ -145,7 +145,7 @@ nav ul li a:hover {
 }
 
 #last p {
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 }
 
