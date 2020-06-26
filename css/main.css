@@ -68,9 +68,9 @@ nav ul li a:hover {
 /*-- index.html --*/
 
 .hello {
-	padding-bottom: 25px;
-	padding-left: 25%;
-	padding-right: 25%;
+	padding-bottom: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 .hello h1 {
@@ -79,8 +79,14 @@ nav ul li a:hover {
 	border-bottom: 2px solid black;
 }
 
-.hello marquee,
+.hello marquee {
+	padding-top: 10px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid black;
+}
+
 .hello p {
+	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 2px;
 	border-bottom: 1px solid black;
@@ -91,13 +97,21 @@ nav ul li a:hover {
 	height: auto; 
 	vertical-align: middle; 
 	border: 10px solid #eee; 
-	border-radius: 300px;
-	margin: 10px;
+	border-radius: 999px;
+	margin-top: 15px;
+	margin-top: 15px;
 }
 
 
 
 /*-- about.html --*/
+
+.cover-pic {
+	 width: 100%; 
+	height: auto; 
+	border: 10px solid #000; 
+	margin-bottom: 40px;
+}
 
 #about-me-table {
 	border: 0px solid black;
