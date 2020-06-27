@@ -2,6 +2,7 @@ html {
 	vertical-align: middle; 
 	min-width: 960px;
 	max-width: 1024px;
+	border: 0px solid black;
 }
 
 body {
@@ -17,7 +18,8 @@ nav {
 	position: fixed;
 	width: 100%; 
 	min-width: 960px;
-	height: 65px;
+	max-width: 1111px;
+	height: 70px;
 	margin-top: 11px;
 	z-index: 100;
 }
