@@ -1,6 +1,6 @@
 html {
-	vertical-align: middle;
-	
+	vertical-align: middle; 
+	min-width: 960px;
 }
 
 body {
