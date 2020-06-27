@@ -14,7 +14,7 @@ body {
 nav {
 	background-color: rgba(0, 0, 0, .8);
 	position: fixed;
-	width: 100%;
+	width: 100%; min-width: 960px;
 	height: 65px;
 	margin-top: 11px;
 	z-index: 100;
