@@ -67,7 +67,6 @@ nav ul li a:hover {
 	height: 80px;
 	background-attachment: fixed;
 	margin-top: -10px;
-}
 
 
 
@@ -180,6 +179,11 @@ footer {
 	color: white;
 	font-size: 28px;
 	text-align: center;
+}
+	
+footer b {
+	color: white; 
+	font-family: monospace;
 }
 
 
