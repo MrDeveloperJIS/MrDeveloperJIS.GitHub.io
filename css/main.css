@@ -63,6 +63,10 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
+.ul-active {
+	border-bottom: 5px solid white;
+}
+
 #main-page {
 	background: black;
 	width: 100%;
