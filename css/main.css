@@ -159,20 +159,20 @@ nav ul li a:hover {
 #last h1 {
 	font-size: 100px;
 	padding-left: 28px;
-	color: white;
+	color: black;
 	font-family: 'Sacramento', serif;
 	text-shadow: 15px 15px 15px;
 }
 
 #last hr {
-	border: 2px solid white; 
+	border: 2px solid black; 
 	width: 100%;
 	margin-bottom: 28px;
 }
 
 #last p {
 	font-size: 30px;
-	color: white;
+	color: black;
 }
 
 
