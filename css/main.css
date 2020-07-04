@@ -1,8 +1,5 @@
 html {
-	vertical-align: middle; 
-	min-width: 960px;
-	max-width: 1024px;
-	border: 0px solid black;
+	vertical-align: middle;
 }
 
 body {
@@ -10,22 +7,77 @@ body {
 }
 
 
+/* For desktop: */
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+/*	 For mobile phones: */
+	[class*="col-"] {
+		width: 100%;
+	}
+}
+
 
 /*-- navigation bar --*/
 
 nav {
-	background-color: rgba(0, 0, 0, .8);
+	background-color: black;
 	position: fixed;
-	width: 100%; 
-	min-width: 960px;
-	max-width: 1111px;
-	height: 70px;
-	margin-top: 11px;
+	width: 100%;
+	height: auto;
+	margin-top: 12px;
 	z-index: 100;
 }
 
 nav h2 {
-	padding-left: 25px;
+	padding-left: 20px;
 	font-style: normal;
 	color: white;
 }
@@ -41,7 +93,7 @@ nav ul:after {
 }
 
 nav ul li {
-	background: black;
+	background: rgba(0, 0, 0, .8);
 	list-style: none;
 	line-height: 60%;
 	float: right;
@@ -64,25 +116,22 @@ nav ul li a:hover {
 }
 
 .ul-active {
-	border-bottom: 5px solid white;
+	border-bottom: 1px solid white;
 }
 
 #main-page {
-	background: black;
 	width: 100%;
-	height: 80px;
+	height: 100px;
 	background-attachment: fixed;
 	margin-top: -10px;
+	margin-bottom: 60px;
 }
-
 
 
 /*-- index.html --*/
 
 .hello {
 	padding-bottom: 20px;
-	padding-left: 20%;
-	padding-right: 20%;
 }
 
 .hello h1 {
@@ -104,24 +153,22 @@ nav ul li a:hover {
 	border-bottom: 1px solid black;
 }
 
-.hello img { 
-	width: 100%; 
-	height: auto; 
-	vertical-align: middle; 
-	border: 10px solid #eee; 
+.hello img {
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	vertical-align: middle;
+	border: 10px solid #eee;
 	border-radius: 999px;
-	margin-top: 15px;
-	margin-top: 15px;
 }
-
 
 
 /*-- about.html --*/
 
 .cover-pic {
-	 width: 100%; 
-	height: auto; 
-	border: 10px solid #eee; 
+	width: 100%;
+	height: auto;
+	border: 7px solid #eee;
 	margin-bottom: 40px;
 }
 
@@ -131,29 +178,37 @@ nav ul li a:hover {
 	font-size: 20px;
 }
 
-#about-me-table tr {
-	
-}
+#about-me-table tr {}
 
-#about-me-table tr td {
+#about-me-table td {
 	float: right;
 	padding: 5px;
-	margin: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	background: rgba(0, 0, 255, .8);
 	color: white;
 }
 
 #about-me-table tr th {
-	padding-left: 40px;
+	padding-left: 20px;
 }
 
+
+#about-me-table ul {
+	margin-top: 20px;
+}
+
+#about-me-table ul li {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
 
 
 /*-- contact.html --*/
 
 #last {
-	padding-left:  100px;
-	padding-right: 180px;
+	padding-left: 10%;
+	padding-right: 15%;
 }
 
 #last h1 {
@@ -165,32 +220,24 @@ nav ul li a:hover {
 }
 
 #last hr {
-	border: 2px solid black; 
+	border: 2px solid black;
 	width: 100%;
-	margin-bottom: 28px;
+	margin-bottom: 40px;
 }
 
 #last p {
-	font-size: 30px;
+	font-size: 28px;
 	color: black;
+	margin-bottom: 28px;
 }
-
 
 
 /*-- footer section --*/
 
 footer {
-	padding-left: 180px;
-	padding-right: 180px;
+	width: 100%;
 	background: black;
 	color: white;
 	font-size: 28px;
 	text-align: center;
 }
-
-
-
-
-
-
-
