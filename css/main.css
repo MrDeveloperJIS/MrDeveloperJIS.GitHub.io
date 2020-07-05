@@ -124,7 +124,7 @@ nav ul li a:hover {
 	height: 100px;
 	background-attachment: fixed;
 	margin-top: -10px;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 }
 
 
@@ -209,6 +209,7 @@ nav ul li a:hover {
 #last {
 	padding-left: 10%;
 	padding-right: 15%;
+	min-height: 80%;
 }
 
 #last h1 {
