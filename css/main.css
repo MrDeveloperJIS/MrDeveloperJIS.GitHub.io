@@ -127,6 +127,22 @@ nav ul li a:hover {
 	margin-bottom: 100px;
 }
 
+#main-section {
+	padding-left: 10%; 
+	padding-right: 10%; 
+	min-height: 100%;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+	#main-section {
+		padding-left: 5%; 
+		padding-right: 5%; 
+		min-height: 100%;
+		font-size: 20px;
+	}
+}
+
 
 /*-- index.html --*/
 
