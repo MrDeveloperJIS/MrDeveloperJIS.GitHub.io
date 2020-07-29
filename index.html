@@ -1,5 +1,5 @@
-<!-- DOCTYPE html -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title>MD. JAHIDUL ISLAM SUJAN</title>
 		<link rel = "icon" href = "images/webDP001.jpg" type = "image/x-icon">
@@ -9,191 +9,208 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<meta http-equiv="refresh" content="300">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/w3.css" />
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	</head>
-	<script src="js/main.js"></script>
-	<script src="js/w3.js"></script>
 	<script src="https://use.fontawesome.com/8d839d5246.js"></script>
 	<body>
-		<!--navigation bar -->
-		<div id="main-page" calss="container-fluid">
-			<div>
-				<nav>
-					<div class="row">
-						<div class="col-sm-6">
-							<h2><b>MD. JAHIDUL ISLAM SUJAN</b></h2>
-						</div>
-						<div class="col-sm-6">
-							<ul>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="index.html" class="ul-active">Portfolio</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
+		<!---- Header ---->
+		<nav class="navbar">
+			<div class="navbar-toggle" onclick="openNav()">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<div class="logo-position">
+					<h1 class="logo" id="wow"><b>md. jahidul islam sujan</b></h1>
+			</div>
+			<ul class="main-nav">
+				<li><a href="#wow" class="nav-links">Welcome</a></li>
+				<li><a href="#about" class="nav-links">About</a></li>
+				<li><a href="#educations" class="nav-links">Educations</a></li>
+				<li><a href="#skills" class="nav-links">Skills</a></li>
+				<li><a href="#certifications" class="nav-links">Certifications</a></li>
+				<li><a href="#work" class="nav-links">Works</a></li>
+				<li><a href="#projects" class="nav-links">projects</a></li>
+				<li><a href="#contact" class="nav-links">Contact</a></li>
+			</ul>
+		</nav>
+		<div id="navbar" class="overlay">
+			<a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+				<a href="#wow" class="welcomeMenu">Welcome</a>
+				<a href="#about" class="aboutMenu">About</a>
+				<a href="#educations" class="educationsMenu">Educations</a>
+				<a href="#skills" class="skillsMenu">Skills</a>
+				<a href="#certifications" class="certificationsMenu">Certifications</a>
+				<a href="#work" class="workMenu">Work Experiences</a>
+				<a href="#projects" class="projectsMenu">Projects</a>
+				<a href="#contact" class="contactMenu">Contact</a>
 			</div>
 		</div>
-		<!-- MAIN SECTION -->
-		<div id="main-section">
-			<!-- hello -->
-			<div class="col-sm 12 hello">
-				<div class="col-sm-5" align="center">
-					<img src="images/webDP002.jpg" alt="JAHID">
-					<br><br><br>
+		<!---- Main Body ---->
+		<div class="container">
+		<!-- welcome -->
+			<section>
+				<h1 id="welcome">Hi, there! I'm Md. Jahidul Islam Sujan </h1>
+			</section>
+		<!-- about -->
+			<section>
+				<h1 id="about">about me</h1>
+				<div class="about-container">
+					<img src="images/webDP002.jpg" class="about-image"/>
+					<p class="about-text">
+						I'm Md. Jahidul Islam sujan, a Bangladeshi citizen, student of B.Sc. hons in Physics at National University of Bangladesh. I am a web designer.
+					</p>
 				</div>
-				<div class="col-sm-1"></div>
-				<div class="col-sm-5">
-					<h1>Hello, I'm Jahid &#128075;</h1>
-					<marquee direction="left" scrollamount="5" behavior="alternate">
-						Welcome! 
-					</marquee>
-					<marquee direction="right" scrollamount="3" behavior="scroll">
-						اَلسَّلَامُ عَلَيْكُم وَرَحْمَةُ اَللهِ وَبَرَكاتُهُ 
-					</marquee>
-					<p style="text-align: center"> I'm here to help you. &#128515; </p>
-					<br><br><br>
+				<a href="#contact" class="link-button">Contact me</a>
+			</section>
+		<!-- educaton -->
+			<section>
+				<h1 id="educations">educations</h1>
+				<div class="educations">
+					<div class="edu-box">
+						<h3>B.Sc hons in Physics</h3>
+						<p class="edu-text">National University of Bangladesh<br></p>
+					</div>
+					<div class="edu-box">
+						<h3>H.S.C - Science</h3>
+						<p class="edu-text">North Kattali Al-haz Mostafa Hakim Degree College<br></p>
+					</div><div class="edu-box">
+						<h3>S.S.C - Science</h3>
+						<p class="edu-text">Agrabad Govt. colony High School<br></p>
+					</div>
 				</div>
-				<div class="col-sm-1"></div>
-			</div>
-			<div class="col-sm-12">
-				<div class="col-sm-5">
-					<!-- Skills -->
-					<h1><b>
-						<i class="fa fa-asterisk fa-fw w3-margin-right w3-text-black"></i>Skills</b>
-					</h1>
-					<br>
-					<div class="w3-container">
-						<p class="w3-xlarge">Basic computing</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:98%"><b>98%</b></div>
-						</div>
-						<br>
-						<p class="w3-xlarge">Microsoft office</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:95%"><b>95%</b></div>
-						</div>
-						<br>
-						<p class="w3-xlarge">Web Design</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:90%"><b>90%</b></div>
-						</div>
-						<br>
+			</section>
+		<!-- skills -->
+			<section>
+				<h1 id="skills">skills</h1>
+				<div class="skill-box">
+					<div class="box">
+						<i class="fab fa-html5 fa-4x"></i>
+						<p>HTML5</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-css3-alt fa-4x"></i>
+						<p>CSS3</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-js fa-4x"></i>
+						<p>JavaScript</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-bootstrap fa-4x"></i>
+						<p>Bootstrap</p>
+					</div>
+					<div class="box">
+						<i class="fas fa-database fa-4x"></i>
+						<p>SQL</p>
+					</div>
+					<div class="box">
+						<i class="fab fa-github fa-4x"></i>
+						<p>GitHub</p>
+					</div>
+				</div>
+				<h1 id="skills">other skills</h1>
+				<div class="skill-box">
+					<div class="box">
+						<i class="fas fa-user-friends fa-4x"></i>
+						<p>Team Management</p>
+					</div>
+					<div class="box">
+						<i class="fas fa-users fa-4x"></i>
+						<p>Team Leadership</p>
+					</div>
+					<div class="box">
+						<i class="fas fa-pen fa-4x"></i>
+						<p>Writting</p>
+					</div>
+					<div class="box">
+						<i class="fas fa-book fa-4x"></i>
+						<p>Reading</p>
+					</div>
+				</div>
+			</section>
+		<!-- projects -->
+			<section>
+				<h1 id="projects">projects</h1>
+				<!--			<p>Here are some projects that I have worked recently.</p>-->
+				<section class="projects">
 <!--
-						<p class="w3-xlarge">HTML5</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:90%"><b>90%</b></div>
-						</div>
-						<br>
-						<p class="w3-xlarge">CSS3</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:85%"><b>85%</b></div>
-						</div>
-						<br>
-						<p class="w3-xlarge">GitHub</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:85%"><b>85%</b></div>
-						</div>
-						<br>
+					<div class="project-box">
+						<h3>Readwits</h3>
+						<p class="project-text">
+							A simple book finder web app built with where you can search books
+							to read. Tools used: HTML, CSS, JavaScript, REST API.
+						</p>
+						<img
+							src="./assets/readwits.png"
+							loading="lazy"
+							alt="A screenshot of book finder web app used for displaying my work"
+							/>
+						<a
+							href="https://mohammedasker.github.io/Readwits/"
+							target="_blank"
+							rel="noopener"
+							><button class="project-button">View Live</button></a
+							>
+						<a
+							href="https://github.com/mohammedasker/Readwits"
+							target="_blank"
+							rel="noopener"
+							><button class="project-button">View Code</button></a
+							>
+					</div>
 -->
-						<p class="w3-xlarge">Android App Development</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:75%"><b>75%</b></div>
-						</div>
-					</div>
-					<br><br><br>
+				</section>
+			</section>
+		<!-- contact -->
+			<section>
+				<h1 id="contact">Contact</h1>
+				<p>
+					Got a website idea and want to turn it into a reality? Let's make it
+					happen!
+				</p>
+			</section>
+			<footer>
+				<div class="social-media">
+					<a
+						href="https://twitter.com/mooasker"
+						target="_blank"
+						aria-label="Go to my Twitter profile"
+						rel="noopener"
+						><i class="fab fa-twitter socialmedia-icons fa-2x"></i
+						></a>
+					<a
+						href="https://github.com/mohammedasker"
+						target="_blank"
+						aria-label="Go to my Github profile"
+						rel="noopener"
+						><i class="fab fa-github socialmedia-icons fa-2x"></i
+						></a>
+					<a
+						href="https://linkedin.com/in/mohdasker"
+						target="_blank"
+						aria-label="Go to my LinkedIn profile"
+						rel="noopener"
+						><i class="fab fa-linkedin socialmedia-icons fa-2x"></i
+						></a>
+					<a
+						href="https://dev.to/mohammedasker"
+						target="_blank"
+						aria-label="Go to my DEV profile"
+						rel="noopener"
+						><i class="fab fa-dev socialmedia-icons fa-2x"></i
+						></a>
 				</div>
-				<div class="col-sm-7">
-					<!-- Works -->
-					<h1>
-						<b>
-						<i class="fa fa-suitcase fa-fw w3-margin-right w3-text-black"></i>Work Experience</b>
-					</h1>
-					<br>
-					<div class="w3-text-black w3-container">
-						<h2><b>Social Media Manager</b></h2>
-						<h3>SMART FASHION BD</h3>
-						<h4><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2020 - Present</h4>
-						<p>I'm managing the social media of this company.</p>
-						<hr>
-					</div>
-					<br><br><br>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<div class="col-sm-7">
-					<!-- Educations -->
-					<h1>
-						<b>
-						<i class="fa fa-certificate fa-fw w3-margin-right w3-text-black"></i>Education</b>
-					</h1>
-					<br>
-					<div class="w3-text-black w3-container">
-						<h2><b>B.Sc. Hons in Physics</b></h2>
-						<h3>National University of Bangladesh</h3>
-						<h4><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - Present</h4>
-						<hr>
-					</div>
-					<div class="w3-text-black w3-container">
-						<h2><b>H.S.C. - Science</b></h2>
-						<h3>Uttar Kattoli Al-haz Mostafa Hakim Degree College, Ctg.</h3>
-						<h4><i class="fa fa-calendar fa-fw w3-margin-right"></i>Passed: 2018</h4>
-						<hr>
-					</div>
-					<div class="w3-text-black w3-container">
-						<h2><b>S.S.C. - Science</b></h2>
-						<h3>Agrabad Govt. colony High School, Ctg.</h3>
-						<h4><i class="fa fa-calendar fa-fw w3-margin-right"></i>Passed: 2016</h4>
-						<hr>
-					</div>
-					<br><br><br>
-				</div>
-				<div class="col-sm-5">
-					<!-- Languages -->
-					<h1>
-						<b>
-						<i class="fa fa-globe fa-fw w3-margin-right w3-text-black"></i>Languages</b>
-					</h1>
-					<br>
-					<div class="w3-container">
-						<p class="w3-xlarge">Bangla</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:100%"><b>100%</b></div>
-						</div>
-						<br>
-						<p class="w3-xlarge">English</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:95%"><b>95%</b></div>
-						</div>
-						<br>
-						<p class="w3-xlarge">Hindi</p>
-						<div class="w3-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-black" style="width:95%"><b>95%</b></div>
-						</div>
-						<br><br><br>
-					</div>
-					<br><br><br>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-12">
-			<!-- quick contact -->
-			<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-				<a target="_blank" href="mailto:jahid2811official@gmail.com"><i class="fa fa-envelope-o fa-fw w3-text-white w3-hover-opacity"> </i></a>
-				<a target="_blank" href="https://www.github.com/JAHIDofficial"><i class="fa fa-github fa-fw w3-text-white w3-hover-opacity"> </i></a>
-				<a target="_blank" href="https://www.twitter.com/JAHIDprofile"><i class="fa fa-twitter fa-fw w3-text-white w3-hover-opacity"> </i></a>
-				<a target="_blank" href="https://www.linkedin.com/in/jahidprofile"><i class="fa fa-linkedin fa-fw w3-text-white w3-hover-opacity"> </i></a>
-				<a target="_blank" href="https://www.instagram.com/JAHID.profile"><i class="fa fa-instagram fa-fw w3-text-white w3-hover-opacity"> </i></a>
-				<a target="_blank" href="https://www.facebook.com/JISprofile"><i class="fa fa-facebook-official fa-fw w3-text-white w3-hover-opacity"> </i></a>
-				<br><br><b style="color: white; font-family: sans-serif"> --- JIS &copy; 2020 --- </b>
-				<br><b style="color: white; font-family: sans-serif"> All right reserved </b>
+				<p class="footer-text">
+					&copy; 2020 | Md. Jahidul Islam Sujan | All right reserved
+				</p>
 			</footer>
 		</div>
+		<script src="main.js"></script>
 	</body>
 </html>

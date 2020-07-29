@@ -1,0 +1,472 @@
+/****** Body ******/
+
+
+/****** This is mobile-first designation ******/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-attachment: scroll;
+}
+
+body {
+	font-family: "Muli", sans-serif;
+}
+
+.container {
+	width: 80%;
+	overflow: hidden;
+	margin: auto;
+}
+
+
+/****** wow ******/
+
+#wow,
+#about,
+#educations,
+#skills,
+#certifications,
+#work,
+#projects,
+#contact {
+	font-family: 'Sacramento', serif;
+}
+
+#about,
+#educations,
+#skills,
+#certifications,
+#work,
+#projects,
+#contact {
+	padding-top: 80px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 3em;
+}
+
+
+/****** Header ******/
+
+.navbar {
+	font-size: 12px;
+	background-color: black;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+}
+
+.main-nav {
+	list-style-type: none;
+	display: none;
+}
+
+.nav-links,
+.logo {
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+}
+
+.main-nav li {
+	text-align: center;
+	margin: 18px 0 10px 20px;
+}
+
+.logo {
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.logo-position {
+	text-align: center;
+}
+
+.navbar-toggle {
+	position: absolute;
+	top: 8px;
+	right: 20px;
+	cursor: pointer;
+	font-size: 19px;
+}
+
+.active {
+	display: block;
+}
+
+.bar {
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 5px 0;
+}
+
+
+/****** NavBar for mobile ******/
+
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-y: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	display: block;
+	transition: 0.2s;
+}
+
+.overlay .closeButton {
+	position: absolute;
+	top: 5px;
+	right: 12px;
+	font-size: 40px;
+}
+
+.bars {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+}
+
+.nav-links:hover,
+.overlay a:hover {
+	color: gray;
+}
+
+
+/****** Welcome ******/
+
+#welcome {
+	padding-top: 80px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.about-text {
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.about-image {
+	border: 10px solid #eee;
+	border-radius: 100%;
+	max-width: 300px;
+	width: 80%;
+	height: auto;
+}
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.link-button {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid #000;
+	color: #000;
+	padding: 12px;
+	width: 40%;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: 0.2s;
+}
+
+.link-button:hover {
+	background-color: black;
+	color: white;
+}
+
+.educations {
+	color: #000;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.edu-box {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 80%;
+	flex-basis: none;
+	transition: 0.2s;
+}
+
+/****** Works ******/
+
+.projects {
+	color: #000;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.project-box {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin-bottom: 50px;
+	padding: 10px;
+	width: 90%;
+	flex-basis: none;
+	transition: 0.2s;
+}
+
+.project-box h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.project-box:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill-box {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.skill-box p {
+	padding: 12px;
+	font-size: 15px;
+}
+
+.project-text {
+	font-size: 1em;
+	padding: 10px;
+}
+
+img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+.project-button,
+.contact-button,
+.about-button {
+	background-color: white;
+	border: 1px solid #000000;
+	color: #000000;
+	padding: 12px;
+	width: 40%;
+	font-size: 0.7em;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 20px 0px 0px 0px;
+	transition: 0.2s;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+
+
+/****** Contact ******/
+
+p {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.socialmedia-icons {
+	text-transform: none;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	margin-right: 15px;
+	transition: 0.2s;
+}
+
+.socialmedia-icons:hover {
+	color: gray;
+}
+
+#contacts a img {
+	width: 50px;
+	height: 50px;
+}
+
+#skills h1 {
+	margin-bottom: 15px;
+}
+
+#contact h1 {
+	margin-bottom: 15px;
+}
+
+.first-name,
+.email {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.message {
+	font-family: "Muli", sans-serif;
+	border-radius: 5px;
+	margin-top: 15px;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	font-size: 16px;
+	resize: none;
+	border: 1px solid gray;
+}
+
+.input-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+/****** Footer ******/
+
+.social-media {
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 12px;
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+
+
+/****** Desktop responsive ******/
+
+@media (min-width: 900px) {
+	p {
+		font-size: 20px;
+	}
+	#welcome-section h1 {
+		margin-top: 100px;
+	}
+	.project-title {
+		padding-top: 100px;
+		padding-bottom: 15px;
+	}
+	.link-button,
+	.contact-button {
+		width: 15%;
+	}
+	.about-container {
+		flex-direction: row;
+	}
+	.about-image {
+		margin-right: 70px;
+		margin-left: 60px;
+	}
+	footer p {
+		font-size: 14px;
+	}
+	.skill-box {
+		display: flex;
+		justify-content: space-around;
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 0;
+		height: 70px;
+		align-items: center;
+	}
+	.main-nav {
+		display: flex;
+		margin-right: 30px;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	.main-nav li {
+		margin: 0;
+	}
+	.nav-links {
+		margin-left: 40px;
+	}
+	.logo {
+		margin-top: 0;
+		margin-left: 20px;
+	}
+	.navbar-toggle {
+		display: none;
+	}
+	.input-box {
+		display: flex;
+		flex-direction: row;
+	}
+	.edu-box, .project-box {
+		flex-basis: 40%;
+	}
+	.contact-form {
+		width: 60%;
+		margin: auto;
+	}
+	.first-name,
+	.email {
+		width: 48%;
+	}
+	.project-button,
+	.contact-button,
+	.link-button {
+		font-size: 1em;
+	}
+}
+
+
+/* Break elements if screen-size is less than 450 pixel */
+
+@media screen and (max-height: 450px) {
+	.overlay {
+		overflow-y: auto;
+	}
+	.overlay a {
+		font-size: 20px;
+	}
+	.overlay .closeButton {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
