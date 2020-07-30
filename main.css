@@ -135,7 +135,7 @@ body {
 	top: 25%;
 	width: 80%;
 	text-align: center;
-	margin-top: 10px;
+	margin-bottom: 10px;
 	margin-left: 10%;
 }
 
@@ -233,11 +233,19 @@ body {
 	transition: 0.2s;
 }
 
+.edu-box h3 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
 blockquote li {
 	margin-top: 12px;
 }
 
 blockquote a {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
 	margin-left: 12px;
 	text-decoration: none;
 }
