@@ -30,11 +30,13 @@ body {
 #about,
 #educations,
 #skills,
+#other-skills,
 #certifications,
 #work,
 #projects,
 #contact {
 	font-family: 'Sacramento', serif;
+	text-align: center;
 }
 
 #about,
@@ -46,7 +48,12 @@ body {
 #contact {
 	padding-top: 80px;
 	padding-bottom: 25px;
-	text-align: center;
+	font-size: 3em;
+}
+
+#other-skills {
+	padding-top: 25px;
+	padding-bottom: 25px;
 	font-size: 3em;
 }
 
@@ -126,9 +133,10 @@ body {
 .overlay-content {
 	position: relative;
 	top: 25%;
-	width: 100%;
+	width: 80%;
 	text-align: center;
 	margin-top: 10px;
+	margin-left: 10%;
 }
 
 .overlay a {
@@ -225,6 +233,15 @@ body {
 	transition: 0.2s;
 }
 
+blockquote li {
+	margin-top: 12px;
+}
+
+blockquote a {
+	margin-left: 12px;
+	text-decoration: none;
+}
+
 /****** Works ******/
 
 .projects {
@@ -304,7 +321,7 @@ button:hover {
 p {
 	text-align: center;
 	font-size: 18px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 .socialmedia-icons {
@@ -312,7 +329,9 @@ p {
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
+	margin-top: 30px;
 	margin-right: 15px;
+	margin-bottom: 20px;
 	transition: 0.2s;
 }
 
