@@ -1,91 +1,94 @@
-<!DOCTYPE html>
+<!DOCTPE html>
 <html lang="en">
 	<head>
 		<title>MD. JAHIDUL ISLAM SUJAN</title>
-		<link rel = "icon" href = "images/webDP001.jpg" type = "image/x-icon">
+		<link rel = "icon" href = "images/mdjahidulislamsujan-icon.jpg" type = "image/x-icon">
 		<meta charset="utf-8">
 		<meta name="author" content="MD. JAHIDUL ISLAM SUJAN">
-		<meta name="description" content="My personal and portfolio website">
-		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="copyright" content="The Owner">
+		<meta name="description" content="My personal and profesional portfolio website">
 		<meta http-equiv="refresh" content="300">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link rel="stylesheet" type="text/css" href="main.css" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap"/>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	</head>
-	<script src="https://use.fontawesome.com/8d839d5246.js"></script>
+	<script src="https://kit.fontawesome.com/234f83bcd8.js" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</script>
 	<body>
-		<!---- Header ---->
-		<nav class="navbar">
-			<div class="navbar-toggle" onclick="openNav()">
-				<div class="bar"></div>
-				<div class="bar"></div>
-				<div class="bar"></div>
+		<!-- header section -->
+		<header>
+			<nav class="navbar">
+				<div class="navbar-toggle" onclick="openNav()">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="title-position">
+					<h1 class="title" id="wow"><b>md. jahidul islam sujan</b></h1>
+				</div>
+				<ul class="main-nav">
+					<li><a href="#about" class="nav-links">About</a></li>
+					<li><a href="#educations" class="nav-links">Educations</a></li>
+					<li><a href="#skills" class="nav-links">Skills</a></li>
+					<li><a href="#certifications" class="nav-links">Certifications</a></li>
+					<li><a href="#work" class="nav-links">Works</a></li>
+					<li><a href="#projects" class="nav-links">Projects</a></li>
+					<li><a href="#contact" class="nav-links">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="navbar" class="overlay">
+				<a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="#welcome" class="welcomeMenu"></a>
+					<a href="#about" class="aboutMenu">About</a>
+					<a href="#educations" class="educationsMenu">Educations</a>
+					<a href="#skills" class="skillsMenu">Skills</a>
+					<a href="#certifications" class="certificationsMenu">Certifications</a>
+					<a href="#work" class="workMenu">Work Experiences</a>
+					<a href="#projects" class="projectsMenu">Projects</a>
+					<a href="#contact" class="contactMenu">Contact</a>
+				</div>
 			</div>
-			<div class="logo-position">
-					<h1 class="logo" id="wow"><b>md. jahidul islam sujan</b></h1>
-			</div>
-			<ul class="main-nav">
-				<li><a href="#about" class="nav-links">About</a></li>
-				<li><a href="#educations" class="nav-links">Educations</a></li>
-				<li><a href="#skills" class="nav-links">Skills</a></li>
-				<li><a href="#certifications" class="nav-links">Certifications</a></li>
-				<li><a href="#work" class="nav-links">Works</a></li>
-				<li><a href="#projects" class="nav-links">Projects</a></li>
-				<li><a href="#contact" class="nav-links">Contact</a></li>
-			</ul>
-		</nav>
-		<div id="navbar" class="overlay">
-			<a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
-			<div class="overlay-content">
-				<a href="#" class="welcomeMenu"></a>
-				<a href="#about" class="aboutMenu">About</a>
-				<a href="#educations" class="educationsMenu">Educations</a>
-				<a href="#skills" class="skillsMenu">Skills</a>
-				<a href="#certifications" class="certificationsMenu">Certifications</a>
-				<a href="#work" class="workMenu">Work Experiences</a>
-				<a href="#projects" class="projectsMenu">Projects</a>
-				<a href="#contact" class="contactMenu">Contact</a>
-			</div>
-		</div>
+		</header>
 		<!---- Main Body ---->
-		<div class="container">
-		<!-- welcome -->
+		<main class="container">
+			<!-- welcome -->
 			<section>
 				<h1 id="welcome">Hi, there! I'm Jahid. &#128075; Let's have a cup of tea &amp; talk together. &#129312;</h1>
 			</section>
-		<!-- about -->
+			<!-- about -->
 			<section>
 				<h1 id="about">about me</h1>
 				<div class="about-container">
-					<img src="images/webDP002.jpg" class="about-image"/>
+					<img src="images/mdjahidulislamsujan.jpg" class="about-image"/>
 					<p class="about-text">
-						I'm Md. Jahidul Islam Sujan, a Bangladeshi citizen, student of B.Sc. hons in Physics at National University of Bangladesh.<br> I am a web designer. <br> I likes thriller, movies, songs, hanging out. <br> I like technology, coding, programming. 
+						I'm Md. Jahidul Islam Sujan, a Bangladeshi citizen, student of B.Sc. hons in Physics at National University of Bangladesh.<br> I am a web designer. <br> I likes thriller, movies, songs, hanging out. <br> I like technology, programming, desgning, coding. 
 					</p>
 				</div>
 				<br><br>
-				<a href="#contact" class="link-button">Contact me</a>
+				<a href="#contact" class="button">Contact me</a>
 			</section>
-		<!-- educaton -->
+			<!-- educaton -->
 			<section>
 				<h1 id="educations">educations</h1>
-				<div class="educations">
-					<div class="edu-box">
+				<div class="all">
+					<div class="all-box">
 						<h3>Under Graduation</h3>
-						<p class="edu-text">B.Sc. Honours in Physics <br> National University of Bangladesh<br> 1<sup>st</sup>&nbsp;year running...</p>
+						<p class="all-text">B.Sc. Honours in Physics <br> National University of Bangladesh<br> 1<sup>st</sup>&nbsp;year running...</p>
 					</div>
-					<div class="edu-box">
+					<div class="all-box">
 						<h3>A level</h3>
-						<p class="edu-text">H.S.C - Science <br> North Kattali Al-haz Mostafa Hakim Degree College, Chittagong.<br> Passed: 2018</p>
-					</div><div class="edu-box">
+						<p class="all-text">H.S.C - Science <br> North Kattali Al-haz Mostafa Hakim Degree College, Chittagong.<br> Passed: 2018</p>
+					</div>
+					<div class="all-box">
 						<h3>O level</h3>
-						<p class="edu-text">S.S.C - Science <br> Agrabad Govt. colony High School, Chittagong.<br> Passed: 2016</p>
+						<p class="all-text">S.S.C - Science <br> Agrabad Govt. colony High School, Chittagong.<br> Passed: 2016</p>
 					</div>
 				</div>
 			</section>
-		<!-- skills -->
+			<!-- skills -->
 			<section>
 				<h1 id="skills">skills</h1>
 				<div class="skill-box">
@@ -128,105 +131,98 @@
 						<i class="fas fa-pen fa-3x"></i>
 						<p>Writting</p>
 					</div>
-					<div class="box">
-						<i class="fas fa-book fa-3x"></i>
-						<p>Reading</p>
-					</div>
 				</div>
 			</section>
-		<!-- certifications -->
+			<!-- certifications -->
 			<section>
 				<h1 id="certifications">certifications</h1>
-				<h2>Coursera</h2>
-				<blockquote>
+				<h2 class="certification">Coursera</h2>
+				<section class="certify">
 					<ul>
-						<li><a target="_blank" href="https://www.coursera.org/verify/TDBRR3CVHGFY">HTML, CSS, and Javascript for Web Developers</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/8V4JVQ2XQZEG">Single Page Web Applications with AngularJS</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/X58NMXF76FXX">Responsive Website Basics: Code with HTML, CSS, and JavaScript</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/4LXL5GRN4CCK">Responsive Web Design</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/J4MZE9X2ZUKB">Responsive Website Tutorial and Examples</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/9SLTK93GH6QR">SQL for Data Science</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/85DGSSL2W79P">Introduction to HTML5</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/BLTX9FQWEUZP">Introduction to CSS3</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/HCKWBRSVA2VU">Interactivity with JavaScript</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/7QSA2VK6N8EV">Advanced Styling with Responsive Design</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/SZRRXF5HZSLT">Introduction to Structured Query Language (SQL)</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/AMWG84TTJ5L5">Front-End Web UI Frameworks and Tools: Bootstrap 4</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/8MQM3LV4E7TW">Version Control with Git</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/YU9HZBB4CRQZ">Using Git for Distributed Development</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/DTAMPCR53KT7">Build Your Portfolio Website with HTML and CSS</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/9TR2JSGBRZ4U">Git + GitHub for Open Source Collaboration</a></li>
-						<li><a target="_blank" href="https://www.coursera.org/verify/RZCX58YANQNS">Git for Developers Using Github</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/7QSA2VK6N8EV">Advanced Styling with Responsive Design</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/DTAMPCR53KT7">Build Your Portfolio Website with HTML and CSS</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/AMWG84TTJ5L5">Front-End Web UI Frameworks and Tools: Bootstrap 4</a></li>
 					</ul>
-				</blockquote>
-				<br><br>
-				<h2>Free Code Camp</h2>
-				<blockquote>
+					<ul id="more">
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/9TR2JSGBRZ4U">Git + GitHub for Open Source Collaboration</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/RZCX58YANQNS">Git for Developers Using Github</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/TDBRR3CVHGFY">HTML, CSS, and Javascript for Web Developers</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/HCKWBRSVA2VU">Interactivity with JavaScript</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/BLTX9FQWEUZP">Introduction to CSS3</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/85DGSSL2W79P">Introduction to HTML5</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/5ZZV6QSPGQEY">Introduction to Search Engine Optimization</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/SZRRXF5HZSLT">Introduction to Structured Query Language (SQL)</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/4LXL5GRN4CCK">Responsive Web Design</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/X58NMXF76FXX">Responsive Website Basics: Code with HTML, CSS, and JavaScript</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/J4MZE9X2ZUKB">Responsive Website Tutorial and Examples</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/9SLTK93GH6QR">SQL for Data Science</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/2D6FQWX7KMRN">Search Engine Optimization Fundamentals</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/8V4JVQ2XQZEG">Single Page Web Applications with AngularJS</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/YU9HZBB4CRQZ">Using Git for Distributed Development</a></li>
+						<li><a target="_blank" href="https://www.coursera.org/account/accomplishments/records/8MQM3LV4E7TW">Version Control with Git</a></li>
+					</ul>
+					<button class="seemoreless" onclick="seeMoreLess()">All certifications </button>
+				</section>
+				<h2 class="certification">Free Code Camp</h2>
+				<section class="certify">
 					<ul>
 						<li><a target="_blank" href="https://www.freecodecamp.org/certification/jahidofficial/responsive-web-design">Responsive Web Design</a></li>
 					</ul>
-				</blockquote>
+				</section>
 			</section>
-		<!-- work experiences -->
+			<!-- work experiences -->
 			<section>
 				<h1 id="work">work experiences</h1>
-				<section class="projects">
-					<div class="project-box">
+				<section class="all">
+					<div class="all-box">
 						<h3>Social media manager</h3>
-						<p class="project-text">
+						<p class="all-text">
 							<b>Smart Fashion BD</b> <br> June 2020 &#45; present
 						</p>
-<!--
-						<img src="./assets/readwits.png" alt="A screenshot of book finder web app used for displaying my work" />
-						<a href="https://mohammedasker.github.io/Readwits/" target="_blank"><button class="project-button">View Live</button></a>
-						<a href="https://mohammedasker.github.io/Readwits/" target="_blank"><button class="project-button">View Live</button></a>
--->
 					</div>
 				</section>
 			</section>
-		<!-- projects -->
+			<!-- projects -->
 			<section>
 				<h1 id="projects">projects</h1>
-				<section class="projects">
-					<div class="project-box">
+				<section class="all">
+					<div class="all-box">
 						<h3>My personal website</h3>
-						<p class="project-text">
-							This website. Tools used: HTML, CSS, JavaScript.
+						<p class="all-text">
+							This website. <br>Tools used: HTML, CSS, JavaScript.
 						</p>
-<!--
-						<img src="./assets/readwits.png" alt="A screenshot of book finder web app used for displaying my work" />
-						<a href="https://mohammedasker.github.io/Readwits/" target="_blank"><button class="project-button">View Live</button></a>
-						<a href="https://mohammedasker.github.io/Readwits/" target="_blank"><button class="project-button">View Live</button></a>
--->
+						<!--
+							<img src="#" alt="#" />
+							<a href="#" target="_blank"><button class="button"> View </button></a>
+							-->
 					</div>
 				</section>
 			</section>
-		<!-- contact -->
+			<!-- contact -->
 			<section>
 				<h1 id="contact">Contact Me</h1>
-				<p>
+				<p class="contact-jis">
 					Got a website idea and want to turn it into a reality? Let's make it
 					happen!
 				</p>
 			</section>
-			<footer>
-				<div class="social-media">
-					<a target="_blank" href="mailto:jahid2811official@gmail.com"><i class="fas fa-envelope socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="tel:+8801784263063"><i class="fa fa-phone socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://wa.me/+8801956185620"><i class="fab fa-whatsapp socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://m.me/jahidofficialprofile"><i class="fab fa-facebook-messenger socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://www.facebook.com/jahidofficialprofile"><i class="fab fa-facebook socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://www.instagram.com/jahidofficialprofile"><i class="fab fa-instagram socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://www.twitter.com/jahidprofile"><i class="fab fa-twitter socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://www.linkedin.com/in/jahidprofile"><i class="fab fa-linkedin socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://www.github.com/jahidofficial"><i class="fab fa-github socialmedia-icons fa-2x"></i></a>
-					<a target="_blank" href="https://www.freecodecamp.org/jahidofficial"><i class="fab fa-free-code-camp socialmedia-icons fa-2x"></i></a>
-				</div>
-				<p class="footer-text">
-					&copy; 2020 | Md. Jahidul Islam Sujan | All right reserved
-				</p>
-			</footer>
-		</div>
-		<script src="main.js"></script>
+		</main>
+		<footer>
+			<div class="social-media container">
+				<a target="_blank" href="mailto:jahid2811official@gmail.com"><i class="fas fa-envelope socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="tel:+8801784263063"><i class="fa fa-phone socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://wa.me/+8801956185620"><i class="fab fa-whatsapp socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://m.me/jahidofficialprofile"><i class="fab fa-facebook-messenger socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://www.facebook.com/jahidofficialprofile"><i class="fab fa-facebook socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://www.instagram.com/jahidofficialprofile"><i class="fab fa-instagram socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://www.twitter.com/jahidprofile"><i class="fab fa-twitter socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/jahidprofile"><i class="fab fa-linkedin socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://www.github.com/jahidofficial"><i class="fab fa-github socialmedia-icons fa-2x"></i></a>
+				<a target="_blank" href="https://www.freecodecamp.org/jahidofficial"><i class="fa fa-free-code-camp socialmedia-icons fa-2x"></i></a>
+			</div>
+			<p> &copy; 2020 | Md. Jahidul Islam Sujan | All right reserved </p>
+		</footer>
 	</body>
+	<script src="main.js"></script>
+	
 </html>
