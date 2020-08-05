@@ -276,10 +276,12 @@ p {
 	transition: 0.2s;
 }
 
+/*
 .seemoreless:hover {
 	background-color: black;
 	color: white;
 }
+*/
 
 .contact-jis {
 	font-size: 1.2em;
