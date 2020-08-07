@@ -39,16 +39,3 @@ document.querySelector(".projectsMenu").addEventListener("click", function () {
 document.querySelector(".contactMenu").addEventListener("click", function () {
 	document.getElementById("navbar").style.height = "0%";
 });
-
-
-// See more, see less button
-function seeMoreLess() {
-	var x = document.getElementById("more");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	}
-	else {
-		x.style.display = "none";
-	}
-}
-

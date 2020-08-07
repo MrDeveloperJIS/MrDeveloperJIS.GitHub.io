@@ -245,43 +245,25 @@ p {
 	font-size: 15px;
 }
 
-.certification {
-	display: inline-block;
-	margin-bottom: 18px;
+.certify {
+	text-align: center
 }
 
-.certify a {
-	display: inline-block;
-	font-weight: bold;
-	padding-left: 18px;
-	padding-bottom: 15px;
-	
-}
-
-#more {
-	display: none;
-}
-
-.seemoreless {
+.certifation-viewer {
 	text-decoration: none;
 	text-align: center;
 	display: block;
-	margin: 0px 10px 10px 100px;
+	margin: 10px auto;
 	background-color: white;
 	border: 1px solid #000;
 	color: #000;
-	padding: 8px;
-	font-size: 0.8em;
+	padding: 10px;
+	width: 50%;
+	font-size: 1em;
 	cursor: pointer;
+	border-radius: 25px;
 	transition: 0.2s;
 }
-
-/*
-.seemoreless:hover {
-	background-color: black;
-	color: white;
-}
-*/
 
 .contact-jis {
 	font-size: 1.2em;
@@ -311,6 +293,7 @@ p {
 }
 
 footer p {
+	font-family: monospace;
 	text-align: center;
 	font-weight: 900;
 	font-size: 0.75em;
@@ -355,6 +338,10 @@ footer p {
 	}
 	.button {
 	width: 15%;
+	font-size: 1em;
+	}
+	.certifation-viewer {
+	width: 20%;
 	font-size: 1em;
 	}
 	.all-box {
