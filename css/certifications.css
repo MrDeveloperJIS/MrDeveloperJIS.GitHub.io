@@ -5,6 +5,7 @@
 
 main {
 	width: 80%;
+	font-size: 15px;
 	overflow: hidden;
 	margin: auto;
 	color: black;
