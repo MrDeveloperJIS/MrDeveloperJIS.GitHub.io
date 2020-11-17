@@ -1,3 +1,3 @@
-# JAHIDofficial.GitHub.io
+# MrDeveloperJIS.GitHub.io
 
-#### developed by [JIS](https://jahidofficial.github.io) &copy; 2020 | All right reserved
+#### developed by [JIS](https://mrdeveloperjis.github.io) &copy; 2020 | All right reserved
