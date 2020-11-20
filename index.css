@@ -485,21 +485,21 @@ main {
 }
 
 #contact div.contactForm form {
-    border-radius: 12px;
     margin: 0 auto 25px auto;
-    width: 80%;
 }
 
 #contact div.contactForm form input {
-    border: 1px dotted black;
-    border-radius: 12px;
+    border: 1px solid black;
     padding: 5px;
-    margin: 8px 25px;
+    margin: 8px auto;
+    width: 280px;
+    display: block;
 }
 
 #contact div.contactForm button {
     display: block;
     border-radius: 0;
+    padding: 5px;
     margin: 10px auto;
 }
 
