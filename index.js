@@ -10,9 +10,9 @@ function closeNav() {
 
 // Close the menu when the menu links are clicked
 
-document.querySelector(".homeMenu").addEventListener("click", function () {
-	document.querySelector("#overlay").style.height = "0%";
-});
+//document.querySelector(".homeMenu").addEventListener("click", function () {
+//	document.querySelector("#overlay").style.height = "0%";
+//});
 
 document.querySelector(".aboutMenu").addEventListener("click", function () {
 	document.querySelector("#overlay").style.height = "0%";

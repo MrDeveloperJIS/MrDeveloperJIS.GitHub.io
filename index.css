@@ -164,20 +164,13 @@ main {
 #skills,
 #portfolio,
 #contact {
-	padding-top: 60px;
+	padding-top: 65px;
 }
-
-#home h1 {
-	text-align: center;
-	font-weight: 900;
-	line-height: 32px;
-}
-
 
 #about img {
 	height: 200px;
 	width: 200px;
-	border: 0;
+	border: 5px solid gray;
 	border-radius: 2000px;
 	margin: auto;
 	display: flex;
@@ -488,7 +481,8 @@ main {
     margin: 0 auto 25px auto;
 }
 
-#contact div.contactForm form input {
+#contact div.contactForm form input,
+#contact div.contactForm form textarea {
     border: 1px solid black;
     padding: 5px;
     margin: 8px auto;
@@ -497,6 +491,8 @@ main {
 }
 
 #contact div.contactForm button {
+	font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
     display: block;
     border-radius: 0;
     padding: 5px;
