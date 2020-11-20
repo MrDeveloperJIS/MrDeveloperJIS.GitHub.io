@@ -484,17 +484,36 @@ main {
 	}
 }
 
-#contact div {
+#contact div.contactForm form {
+    border-radius: 12px;
+    margin: 0 auto 25px auto;
+    width: 80%;
+}
+
+#contact div.contactForm form input {
+    border: 1px dotted black;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 8px 25px;
+}
+
+#contact div.contactForm button {
+    display: block;
+    border-radius: 0;
+    margin: 10px auto;
+}
+
+#contact div.contactLinks {
 	text-align: center;
 }
 
-#contact div a {
+#contact div.contactLinks a {
 	color: black;
 	padding: 1px;
 	margin: 1px 5px;
 }
 
-#contact div i {
+#contact div.contactLinks i {
 	font-size: 1.5em;
 	padding: 10px 0;
 }
