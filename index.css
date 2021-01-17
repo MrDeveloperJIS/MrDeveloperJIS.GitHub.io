@@ -214,11 +214,11 @@ main {
     justify-content: space-around;
 }
 
-#study > h3,
-#work > h3,
-#skills > h3,
-#portfolio > h3,
-#contact > h3 {
+#study>h3,
+#work>h3,
+#skills>h3,
+#portfolio>h3,
+#contact>h3 {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
