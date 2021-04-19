@@ -7,9 +7,7 @@ developed by [Jahid](https://mrdeveloperjis.github.io) &copy; 2020-2021 | All ri
 
 ![GitHub license](https://img.shields.io/github/license/mrdeveloperjis/mrdeveloperjis.github.io?color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/mrdeveloperjis/mrdeveloperjis.github.io)
-![GitHub top language](https://img.shields.io/github/languages/top/mrdeveloperjis/mrdeveloperjis.github.io)
 ![GitHub contributors](https://img.shields.io/github/contributors/mrdeveloperjis/mrdeveloperjis.github.io?color=blue)
-![GitHub repo size](https://img.shields.io/github/repo-size/mrdeveloperjis/mrdeveloperjis.github.io)
 
 ![GitHub issues](https://img.shields.io/github/issues/mrdeveloperjis/mrdeveloperjis.github.io)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/mrdeveloperjis/mrdeveloperjis.github.io)
@@ -23,5 +21,6 @@ developed by [Jahid](https://mrdeveloperjis.github.io) &copy; 2020-2021 | All ri
 ![GitHub last commit](https://img.shields.io/github/last-commit/mrdeveloperjis/mrdeveloperjis.github.io)
 
 ![GitHub deployments](https://img.shields.io/github/deployments/mrdeveloperjis/mrdeveloperjis.github.io/github-pages?label=github+pages+state)
-![Website](https://img.shields.io/website?color=blue&down_message=https%3A%2F%2Fmrdeveloperjis.github.io&up_message=https%3A%2F%2Fmrdeveloperjis.github.io&url=https%3A%2F%2Fmrdeveloperjis.github.io)
+![Website](https://img.shields.io/website?color=blue&url=https%3A%2F%2Fmrdeveloperjis.github.io)
+![Url](https://img.shields.io/badge/url-https%3A%2F%2Fmrdeveloperjis.github.io-blue)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fmrdeveloperjis.github.io)
