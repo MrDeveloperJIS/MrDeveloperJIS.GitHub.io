@@ -3,7 +3,6 @@
 developed by [Jahid](https://mrdeveloperjis.github.io) &copy; 2020-2021 | All right reserved
 
 ![](https://img.shields.io/badge/Md.%20Jahidul%20Islam%20Sujan-MrDevelopeJIS-blue?logo=github&logoColor=white)
-![Profile views](https://komarev.com/ghpvc/?username=mrdeveloperjis&color=blue&label=profile+views)
 
 ![GitHub license](https://img.shields.io/github/license/mrdeveloperjis/mrdeveloperjis.github.io?color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/mrdeveloperjis/mrdeveloperjis.github.io)
