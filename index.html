@@ -1,21 +1,37 @@
-<!Doctype html>
+<!DOCTYPE html>
+
 <html>
+<!-- class="no-js"-->
 
 <head>
-    <title>MD. JAHIDUL ISLAM SUJAN</title>
-    <link rel="icon" href="assets/img/icon/mrdeveloperjis-favicon.jpg" type="image/x-icon" />
-    <meta charset="utf-8" />
-    <meta name="author" content="MD. JAHIDUL ISLAM SUJAN" />
-    <meta name="copyright" content="Md. Jahidul Islam Sujan" />
-    <meta name="description" content="Professional Portfolio Website of MrDevloperJIS" />
-    <meta name="keywords"
-        content="mdjahidofficial, mrdeveloperjis, jahidul islam sujan, web designer, web developer, frontend developer" />
-    <meta http-equiv="refresh" content="300" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Md. Jahidul Islam Sujan</title>
 
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio of Md. Jahidul Islam Sujan">
+    <meta name="keywords" content="MrDeveloperJIS, Md Jahidul Islam Sujan, Jahidul Islam Sujan">
+    <meta http-equiv="refresh" content="900">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="assets/font_icon/css/helper.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-    <script src="https://kit.fontawesome.com/234f83bcd8.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic'
+        rel='stylesheet' type='text/css'>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon/mrdeveloperjis-favicon.jpg" type="image/x-icon">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3K4H6B82Z9"></script>
@@ -28,267 +44,310 @@
         gtag('js', new Date());
         gtag('config', 'G-3K4H6B82Z9');
     </script>
+    <!-- --- -->
 
-    <link href="assets/css/index.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
 
-    <header>
-
-        <nav>
-            <h1><b>mr. developer jis</b></h1>
-            <i class="fas fa-bars" onclick="openNav()"></i>
-            <ul>
-                <li><a href="#about">about</a></li>
-                <li><a href="#study">study</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-        <div id="overlay">
-            <a href="javascript:void(0)" class="closeButton" onclick="closeNav()"><i class="fas fa-times"></i></a>
-            <ul>
-                <li><a href="#about" class="aboutMenu">about</a></li>
-                <li><a href="#study" class="studyMenu">study</a></li>
-                <li><a href="#work" class="workMenu">work</a></li>
-                <li><a href="#skills" class="skillsMenu">skills</a></li>
-                <li><a href="#portfolio" class="portfolioMenu">portfolio</a></li>
-                <li><a href="#contact" class="contactMenu">contact</a></li>
-            </ul>
+    <!-- Header area -->
+    <header id="header">
+        <div class="center text-center">
+            <h1 class="headline">Md. Jahidul Islam Sujan</h1>
+            <!-- <h5 class="header-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum placeat
+                ab pariatur ipsam hic cumque at, excepturi vel neque obcaecati dicta iste ad ea mollitia corrupti
+                expedita minima reprehenderit. Ab.</h5> -->
         </div>
-
+        <div class="bottom">
+            <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i
+                    class="pe-7s-angle-down-circle pe-va"></i></a>
+        </div>
     </header>
 
-    <main class="container">
-        <!-- about -->
-        <section id="section">
-            <section id="about">
+    <!-- Navigation area -->
+    <section id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10">
+                    <div class="logo"><a data-scroll href="#body" class="logo-text">Md. Jahidul Islam Sujan</a></div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="nav">
+                        <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i
+                                class="pe-7s-menu"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="arrow-up"></div>
+                            <ul>
+                                <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <li><a data-scroll href="#services">Service <i class="pe-7s-config"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <!-- <li><a data-scroll href="#skills">Skill <i class="pe-7s-study"></i></a><span
+                                        class="menu-effect"></span></li> -->
+                                <li><a data-scroll href="#portfolio">Portfolio <i class="pe-7s-glasses"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <!-- <li><a data-scroll href="#testimonial">Testimonial <i class="pe-7s-comment"></i><span
+                                            class="menu-effect"></span></a></li> -->
+                                <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span
+                                        class="menu-effect"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                <img src="assets/img/images/mrdeveloperjis.jpg" alt="md. jahidul islam sujan" />
-                <p>
-                    I am MD. JAHIDUL ISLAM SUJAN, also known as MR. DEVELOPER JIS. I am a Web Designer and Frontend
-                    Developer. I can create Beautiful Eye-Catching Multi Plutform SEO Friendly Responsive Websites.
-                    Besides I am also Expert in On Page Search Engine Optimization (SEO). Let's have a cup of tea &amp;
-                    talk together. &#129312;
-                </p>
-            </section>
-            <a href="#contact" class="quickContactBtn">Contact me</a>
-        </section>
-        <!-- study -->
-        <section id="section">
-            <section id="study">
-                <h3>--- study ---</h3>
-                <div class="academy go-right">
-                    <h3>O level</h3>
-                    <h4>Agrabad Govt. Colony High School</h4>
-                    <h5>Passed 2016</h5>
-                    <p></p>
-                </div>
-                <div class="go-center">
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="academy go-left">
-                    <h3>A level</h3>
-                    <h4>North Kattali Al-haz Mostafa Hakim Degree College</h4>
-                    <h5>Passed 2018</h5>
-                    <p></p>
-                </div>
-                <div class="go-center">
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="academy go-right">
-                    <h3>Under Graduation</h3>
-                    <h4>National University of Bangladesh</h4>
-                    <h5>2nd year running</h5>
-                    <p>B.Sc. Hons in Physics</p>
-                </div>
-            </section>
-        </section>
-        <!-- work -->
-        <section id="section">
-            <section id="work">
+            </div>
+        </div>
+    </section>
 
-                <h3>--- work ---</h3>
-                <div class="workplace go-left">
-                    <h3>Social Media Manager</h3>
-                    <h4>Smart Fashion BD</h4>
-                    <h5>June 2020 - October 2020</h5>
-                    <p></p>
-                </div>
-                <div class="go-center">
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="workplace go-right">
-                    <h3>Web Designer</h3>
-                    <h4>Fiverr</h4>
-                    <h5>September 2020 - present</h5>
-                    <p></p>
-                </div>
-                <div class="go-center">
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-grip-lines-vertical"></i>
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="workplace go-left">
-                    <h3>Web Designer</h3>
-                    <h4>Freelancer</h4>
-                    <h5>September 2020 - present</h5>
-                    <p></p>
-                </div>
-            </section>
-        </section>
-        <!-- skills -->
-        <section id="section">
-            <section id="skills">
-                <h3>--- skills ---</h3>
-                <div class="topSkills">
-                    <div class="singleSkill">
-                        <i class="fa fa-html5"></i>
-                        <p>HTML5</p>
-                        <div class="skillProgressBar">
-                            <div class="skillProgress" style="width: 90%">90%</div>
-                        </div>
-                    </div>
-                    <div class="singleSkill">
-                        <i class="fa fa-css3"></i>
-                        <p>CSS3</p>
-                        <div class="skillProgressBar">
-                            <div class="skillProgress" style="width: 85%">85%</div>
-                        </div>
-                    </div>
-                    <div class="singleSkill">
-                        <i class="fab fa-js"></i>
-                        <p>Javascript</p>
-                        <div class="skillProgressBar">
-                            <div class="skillProgress" style="width: 70%">70%</div>
-                        </div>
-                    </div>
-                    <div class="singleSkill">
-                        <i class="fab fa-bootstrap"></i>
-                        <p>Bootstrap</p>
-                        <div class="skillProgressBar">
-                            <div class="skillProgress" style="width: 70%">70%</div>
-                        </div>
-                    </div>
-                    <div class="singleSkill">
-                        <i class="fa fa-github"></i>
-                        <p>Github</p>
-                        <div class="skillProgressBar">
-                            <div class="skillProgress" style="width: 80%">80%</div>
-                        </div>
-                    </div>
-                    <div class="singleSkill">
-                        <i class="fa fa-database"></i>
-                        <p>SQL</p>
-                        <div class="skillProgressBar">
-                            <div class="skillProgress" style="width: 70%">70%</div>
+    <!-- Content Area -->
+
+    <!-- services section -->
+
+    <section id="services" class="service-area">
+        <div class="container">
+            <h2 class="block_title">Services</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-science pe-dj pe-va"></i>
+                            <h3>Creative Idea</h3>
+                            <p>Beatiful Eye catching WordPress &amp; HTML CSS Landing Page &amp; Web Pages.</p>
                         </div>
                     </div>
 
                 </div>
-                <hr>
-                <div class="otherSkills">
-                    <div class="singleSkill">
-                        <i class="fa fa-user-friends"></i>
-                        <p>Team Management</p>
-                    </div>
-                    <div class="singleSkill">
-                        <i class="fa fa-users"></i>
-                        <p>Team Leadership</p>
-                    </div>
-                    <div class="singleSkill">
-                        <i class="fa fa-pen"></i>
-                        <p>Writing</p>
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-monitor pe-dj pe-va"></i>
+                            <h3>Responsive Design</h3>
+                            <p>100% Responsive Multi Platform Wordpress, BootStrap 5 &amp; CSS Webpages.</p>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </section>
-        <!-- portfolio -->
-        <section id="section">
-            <section id="portfolio">
-                <h3>--- portfolio ---</h3>
-                <div class="project">
-                    <strong>Portfolio Website</strong>
-                    <p>Professional Website of MrDeveloperJIS</p>
-                    <a href="assets/img/images/project1desktop.jpg"><button>Desktop View</button></a>
-                    <a href="assets/img/images/project1mobile.jpg"><button>Mobile View</button></a>
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-edit pe-dj pe-va"></i>
+                            <h3>Clean &amp; Nice</h3>
+                            <p>Eye catching &amp; Smooth Well Decorated Landing Page &amp; Web Pages.</p>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </section>
-        <!-- contact -->
-        <section id="section">
-            <section id="contact">
-                <h3>--- contact me---</h3>
-                <div class="contactForm">
-                    <form class="pageclip-form" method="post"
-                        action="https://send.pageclip.co/vUNLR5wbaw7mA6jkRMBYgRGyu0T60mf4/ContactMeForm">
-                        <input type="text" name="name" placeholder="Your name" required />
-                        <input type="email" name="email" placeholder="Email address" required />
-                        <input type="text" name="subject" placeholder="Subject" required />
-                        <textarea rows="3" name="massage" placeholder="Your massage"></textarea>
-                        <button type="submit" class="pageclip-form__submit">
-                            <span>Send</span>
-                        </button>
-                    </form>
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-config pe-dj pe-va"></i>
+                            <h3>Support</h3>
+                            <p>24/7 Communication Facility. Always Available To Update Previous Designs.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="contactLinks">
-                    <a target="_blank" href="mailto:jahid2811official@gmail.com" title="E-mail"><i
-                            class="fa fa-envelope"></i></a>
-                    <a target="_blank" href="tel:+8801784263063" title="Phone Call"><i class="fa fa-phone"></i></a>
-                    <a target="_blank" href="https://wa.me/+8801956185620" title="WhatsApp"><i
-                            class="fab fa-whatsapp"></i></a>
-                    <a target="_blank" href="https://t.me/mrdeveloperjis" title="Telegram"><i
-                            class="fab fa-telegram"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/mrdeveloperjis" title="LinkedIn"><i
-                            class="fab fa-linkedin"></i></a>
-                    <a target="_blank" href="https://m.me/mrdeveloperjis" title="Messenger"><i
-                            class="fab fa-facebook-messenger"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/mrdeveloperjis" title="Facebook"><i
-                            class="fab fa-facebook"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/mrdeveloperjis" title="Instagram"><i
-                            class="fab fa-instagram"></i></a>
-                    <a target="_blank" href="https://www.twitter.com/mrdeveloperjis" title="Twitter"><i
-                            class="fab fa-twitter"></i></a>
-                    <a target="_blank" href="https://www.pinterest.com/mrdeveloperjis" title="Pinterest"><i
-                            class="fab fa-pinterest"></i></a>
-                    <a target="_blank" href="https://www.dev.to/mrdeveloperjis" title="DEV Community"><i
-                            class="fab fa-dev"></i></a>
-                    <a target="_blank" href="https://www.medium.com/@mrdeveloperjis" title="Medium"><i
-                            class="fab fa-medium"></i></a>
-                    <a target="_blank" href="https://www.stackoverflow.com/users/14239209/md-jahidul-islam-sujan"
-                        title="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
-                    <a target="_blank" href="https://www.freecodecamp.org/mrdeveloperjis" title="Free Code Camp"><i
-                            class="fa fa-free-code-camp"></i></a>
-                    <a target="_blank" href="https://www.codepen.io/mrdeveloperjis" title="Codepen"><i
-                            class="fab fa-codepen"></i></a>
-                    <a target="_blank" href="https://www.github.com/mrdeveloperjis" title="GitHub"><i
-                            class="fab fa-github"></i></a>
-                </div>
-            </section>
-        </section>
+            </div>
+        </div>
+    </section><!-- services -->
 
-    </main>
+    <!-- skill section -->
 
-    <footer class="container">
-        Copyright <i class="far fa-copyright"></i> 2020-2021 | <i class="fas fa-code"></i> with <i
-            class="fas fa-heart"></i> by <strong>MR DEVELOPER JIS</strong> | All right reserved
+    <!-- <section id="skills" class="skill-area">
+        <div class="container">
+            <h2 class="block_title">SKills</h2>
+            <div class="row">
+                
+            </div>
+        </div>
+    </section><!-- services -->
+ -->
+    <!-- Portfolio Area -->
+
+    <section id="portfolio" class="portfolio-area">
+        <div class="container">
+            <h2 class="block_title">My Latest Works</h2>
+            <div class="row port cs-style-3">
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="assets/images/portfolio/portfolio-3.jpg" alt="portfolio item">
+                        <figcaption>
+                            <h3>Portfolio Website</h3>
+                            <span>MrDeveloperJIS</span>
+                            <a href="#" target="_blank" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="assets/images/portfolio/portfolio-2.jpg" alt="portfolio item">
+                        <figcaption>
+                            <h3>Portfolio Website</h3>
+                            <span>MrDeveloperJIS</span>
+                            <a href="#" target="_blank" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="assets/images/portfolio/portfolio-1.jpg" alt="portfolio item">
+                        <figcaption>
+                            <h3>Portfolio Website</h3>
+                            <span>MrDeveloperJIS</span>
+                            <a href="#" target="_blank" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- <div class="col-xs-12">
+                    <div class="btn-center"><a href="https://github.com/MrDeveloperJIS?tab=repositories" target="_blank"
+                            class="big button">View all projects</a></div>
+                </div> -->
+            </div>
+        </div><!-- container -->
+    </section><!-- portfolio -->
+
+    <!-- Testimonial Area -->
+    <!-- 
+    <section id="testimonial" class="testimonial-area">
+        <div class="container">
+            <h2 class="block_title">Testimonials</h2>
+            <div class="row">
+                <div class="col-xs-12">
+                </div>
+                <div id="testimonial-container" class="col-xs-12">
+                    <div class="testimonila-block">
+                        <img src="assets/images/testimonial.jpg" alt="clients" class="selfshot">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed mollitia illum!
+                            Molestiae dignissimos, hic dolorem et eius ut nobis. Corrupti totam amet aperiam aut
+                            voluptate nobis dolor at soluta.</p>
+                        <strong>Monir Hossain</strong>
+                        <br>
+                        <small>C.E.O</small>
+                    </div>
+                    <div class="testimonila-block">
+                        <img src="assets/images/testimonial2.jpg" alt="clients" class="selfshot">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed mollitia illum!
+                            Molestiae dignissimos, hic dolorem et eius ut nobis. Corrupti totam amet aperiam aut
+                            voluptate nobis dolor at soluta.</p>
+                        <strong>Nur Ul Hossain</strong>
+                        <br>
+                        <small>Project Manager</small>
+                    </div>
+                    <div class="testimonila-block">
+                        <img src="assets/images/testimonial3.jpg" alt="clients" class="selfshot">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed mollitia illum!
+                            Molestiae dignissimos, hic dolorem et eius ut nobis. Corrupti totam amet aperiam aut
+                            voluptate nobis dolor at soluta.</p>
+                        <strong>Hossain Abrar</strong>
+                        <br>
+                        <small>Developer</small>
+                    </div>
+                </div>
+            </div>
+        </div><!-- container -->
+    </section><!-- testimonial -->
+    -->
+    <!-- Contact Area -->
+
+    <section id="contact" class="mapWrap">
+        <div id="googleMap" style="width:100%;"></div>
+        <div id="contact-area">
+            <div class="container">
+                <h2 class="block_title">Hey !!!</h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="moreDetails">
+                            <h2 class="con-title">Reach me</h2>
+
+                            <ul class="address">
+                                <li><i class="pe-7s-map-marker"></i><span>Shantibag R/A road 5,
+                                        Agrabad,<br>Chattogram-4100, Bangladesh.</span></li>
+                                <li><a href="mailto:jahid2811official@gmail.com"><i
+                                            class="pe-7s-mail"></i><span>jahid2811official@gmail.com</span></a></li>
+                                <li><a href="tel:+8801784263063"><i class="pe-7s-phone"></i><span>+880 1784 263
+                                            063</span></a></li>
+                            </ul>
+                            <ul class="scoialinks">
+                                <li class="normal-txt">Connect me</li>
+                                <li class="social-icons"><a target="_blank"
+                                        href="https://www.facebook.com/mrdeveloperjis"><img
+                                            src="assets/svg/social/facebook.svg" alt="facebook" title="facebook"></a>
+                                </li>
+                                <li class="social-icons"><a target="_blank" href="https://m.me/mrdeveloperjis"><img
+                                            src="assets/svg/social/messenger.svg" alt="messenger" title="messenger"></a>
+                                </li>
+                                <li class="social-icons"><a target="_blank"
+                                        href="https://www.instagram.com/mrdeveloperjis"><img
+                                            src="assets/svg/social/instagram.svg" alt="instagram" title="instagram"></a>
+                                </li>
+                                <li class="social-icons"><a target="_blank"
+                                        href="https://www.twitter.com/mrdeveloperjis"><img
+                                            src="assets/svg/social/twitter.svg" alt="twitter" title="twitter"></a>
+                                </li>
+                                <li class="social-icons"><a target="_blank" href="https://t.me/mrdeveloperjis"><img
+                                            src="assets/svg/social/telegram.svg" alt="telegram" title="telegram"></a>
+                                </li>
+                                <li class="social-icons"><a target="_blank" href="https://wa.me/+8801956185620"><img
+                                            src="assets/svg/social/whatsapp.svg" alt="twitter" title="twitter"></a>
+                                </li>
+                                <li class="social-icons"><a target="_blank"
+                                        href="https://www.linkedin.com/in/mrdeveloperjis"><img
+                                            src="assets/svg/social/linkedin.svg" alt="linkedin" title="linkedin"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="con-title">Drop a message</h2>
+                        <form role="form" class="pageclip-form" method="post"
+                            action="https://send.pageclip.co/vUNLR5wbaw7mA6jkRMBYgRGyu0T60mf4/ContactMeForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="user_name" placeholder="Enter your name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="your_email" placeholder="Enter your email"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="InputMessage" id="user_message" class="form-control" rows="5"
+                                    placeholder="Enter your message" required></textarea>
+                            </div>
+                            <button type="submit" class="pageclip-form__submit btn medium"><span>Send the quote
+                                </span></button>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- container -->
+        </div><!-- contact-area -->
+    </section><!-- contact -->
+
+    <!-- Footer Area -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="copyright">© 2021 <a href="https://github.com/MrDeveloperJIS"
+                            target="_blank">MrDeveloperJIS</a>, All right reserved.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="hosting">Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </footer>
 
-    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-    <script src="assets/js/index.js"></script>
+    <!-- Necessery scripts -->
+    <script src="https://s.pageclip.co/v1/pageclip.js"></script>
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.actual.min.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/modernizr.js"></script>
+    <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
