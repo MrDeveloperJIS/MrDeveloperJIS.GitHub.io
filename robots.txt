@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 Crawl-Delay: 20
-
 Sitemap: https://mrdeveloperjis.github.io/sitemap_index.xml
