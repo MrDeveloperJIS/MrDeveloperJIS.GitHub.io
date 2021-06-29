@@ -7849,7 +7849,7 @@ p {
     left: 0;
     right: 0;
     content: "";
-    background: #ff9800;
+    background: #090;
     height: 39px;
     width: 2px;
     margin: 0 auto
@@ -8031,7 +8031,7 @@ p {
     box-shadow: 0 10px 50px rgba(20, 50, 47, .03), 0 10px 40px rgba(0, 0, 0, .03);
     height: 250px;
     border-radius: 5px;
-    border-color: #ff9800;
+    border-color: #090;
     border-style: solid;
     border-width: thin
 }
@@ -8214,7 +8214,7 @@ p {
 }
 
 ::-webkit-scrollbar {
-    width: 10px
+    width: 4px
 }
 
 ::-webkit-scrollbar-track {
@@ -8222,11 +8222,7 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ff9800
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #242a35
+    background: #090
 }
 
 .disable-select {
@@ -8358,12 +8354,12 @@ p {
 
 .certificate-button {
     background: #fff;
-    color: #ff9800;
+    color: #090;
     box-shadow: none
 }
 
 .certificate-button:hover {
-    color: #ff9800
+    color: #090
 }
 
 .contact-links {
@@ -8830,7 +8826,7 @@ p {
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li.active a,
 .text-custom {
-    color: #ff9800
+    color: #090
 }
 
 .bg-custom,
@@ -8845,7 +8841,7 @@ p {
 .nav-tabs .nav-link:focus,
 .progress-bar,
 .title:before {
-    background: #ff9800
+    background: #090
 }
 
 .btn-custom,
@@ -8858,11 +8854,11 @@ p {
 .btn-outline:active,
 .btn-outline:focus,
 .btn-outline:hover {
-    border: 1px solid #ff9800
+    border: 1px solid #090
 }
 
 .footer .social-icons li a:hover {
-    border-color: #ff9800
+    border-color: #090
 }
 
 .timeline {
@@ -8946,7 +8942,7 @@ p {
 
 .experience-company-name {
     margin: 5px 0 0;
-    color: #ff9800;
+    color: #090;
     font-weight: 400;
     font-size: 1rem
 }
@@ -9008,6 +9004,13 @@ p {
     }
 }
 
+
+@media (max-width:480px) {
+    .navbar-toggler {
+        visibility: hidden;
+    }
+}
+
 @media (min-width:200px) and (max-width:768px) {
     .navbar-custom {
         margin-top: 0;
@@ -9030,7 +9033,7 @@ p {
 
     .navbar-custom .navbar-nav li.active a {
         border-color: transparent;
-        color: #ff9800 !important
+        color: #090 !important
     }
 
     .navbar-nav {
