@@ -1394,7 +1394,7 @@ a>code {
 }
 
 .navbar-toggler {
-    padding: .25rem .75rem;
+    padding: .25rem .25rem;
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
@@ -7788,7 +7788,7 @@ p {
 }
 
 .bg-overlay {
-    background-color: #242a35;
+    background-color: #242a35d0;
     opacity: .8;
     position: absolute;
     top: 0;
@@ -7930,7 +7930,7 @@ p {
 }
 
 .bg-home {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.png);
     position: relative;
     height: 100vh;
     background-size: cover;
@@ -8267,6 +8267,8 @@ p {
     vertical-align: middle;
     border-style: none;
     background-image: url(../images/quote-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
