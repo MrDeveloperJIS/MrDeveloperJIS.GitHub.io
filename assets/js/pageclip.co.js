@@ -1,5 +1,5 @@
 ! function (e) {
-    var t = function () {},
+    var t = function () { },
         s = {
             _base: "string" == typeof __pageclip_base ? __pageclip_base : "https://send.pageclip.co",
             _successTemplate: '<div class="pageclip-form__success__message">Thank you!</div>',
@@ -74,7 +74,7 @@
                 c.send(i)
             },
             _xhr: function () {
-                return new(e.XMLHttpRequest || ActiveXObject)("MSXML2.XMLHTTP.3.0")
+                return new (e.XMLHttpRequest || ActiveXObject)("MSXML2.XMLHTTP.3.0")
             },
             _sendError: function (e, t) {
                 var n = '{"error": "' + (t.stack || t.message || t + "").replace(/"/g, '\\"').replace(/\n/g, "\\n") + '"}',
