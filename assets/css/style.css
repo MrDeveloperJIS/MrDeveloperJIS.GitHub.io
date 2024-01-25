@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 main {
@@ -12,7 +13,6 @@ main {
     height: 450px;
 
     text-align: center;
-    font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
     color: white;
 
@@ -69,4 +69,58 @@ main {
 .link a img {
     width: 30px;
     height: auto;
+}
+
+/* ------------ */
+/* contact.html */
+/* ------------ */
+
+form {
+    text-align: left;
+    font-size: 20px;
+    display: grid;
+
+}
+
+form * {
+    text-align: left;
+    margin: 5px 0;
+}
+
+form label {
+    text-transform: capitalize;
+}
+
+form input,
+form textarea {
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 20px;
+}
+
+form button {
+    margin: 20px auto;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+form button span {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+form button:hover {
+    
+    color: black;
+    background-color: white;
+    border: 1px solid white;
 }
