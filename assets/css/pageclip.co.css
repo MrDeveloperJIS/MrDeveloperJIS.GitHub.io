@@ -9,7 +9,7 @@
     right: -1px;
     bottom: -1px;
     text-align: center;
-    background: hsla(0, 0%, 100%, .8);
+    background: black;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -31,8 +31,8 @@
     display: inline-block;
     position: relative;
     text-indent: -9999em;
-    border: 3px solid hsl(0, 0%, 0%);
-    border-left: 3px solid #fff;
+    border: 3px solid black;
+    border-left: 3px solid white;
     transform: scale(.01) translateZ(0);
     border-radius: 50%;
     width: 20px;
@@ -47,8 +47,8 @@
 }
 
 .pageclip-form__submit.pageclip-form__submit--dark-loader:after {
-    border-color: rgba(0, 0, 0, 0.9);
-    border-left-color: #000
+    border-color: black;
+    border-left-color: black;
 }
 
 .pageclip-form__submit.pageclip-form__submit--start-loading:after {
