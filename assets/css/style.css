@@ -53,7 +53,7 @@ main {
 
 
 
-.links-main {
+.links-row1 {
     position: absolute;
     bottom: 55px;
     width: 256px;
@@ -62,7 +62,7 @@ main {
     text-align: center;
 }
 
-.links-social {
+.links-row2 {
     position: absolute;
     bottom: 10px;
     width: 256px;
@@ -73,7 +73,7 @@ main {
 
 .link {
     margin: 5px;
-    flex: 32px;
+    flex: 40px;
 }
 
 .link a img {
@@ -129,7 +129,7 @@ form button span {
 }
 
 form button:hover {
-    
+
     color: black;
     background-color: white;
     border: 1px solid white;
