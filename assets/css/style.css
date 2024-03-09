@@ -7,23 +7,40 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-main {
-    padding: 20px;
-    width: 256px;
-    height: 480px;
+/* scrollbar */
 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0f0f0f;
+}
+
+/* main contents */
+
+main {
+    width: 256px;
+    max-height: 472px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    padding: 20px;
     text-align: center;
     font-size: 16px;
-    color: white;
+    color: #fff;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-radius: 10px;
-    background-color: white;
     background-color: transparent;
 }
 
@@ -39,7 +56,7 @@ main {
 }
 
 .jahid-name {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-transform: capitalize;
 }
 
@@ -48,35 +65,20 @@ main {
 }
 
 .jahid-bio {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
-
-
-.links-row1 {
-    position: absolute;
-    bottom: 55px;
-    width: 256px;
+.link-rows {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-}
-
-.links-row2 {
-    position: absolute;
-    bottom: 10px;
-    width: 256px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    gap: 10px 15px;
 }
 
 .link {
-    margin: 5px;
-    flex: 40px;
+    flex: 1;
 }
 
-.link a img {
+.link img {
     width: 30px;
     height: auto;
 }
@@ -86,10 +88,8 @@ main {
 /* ------------ */
 
 form {
-    text-align: left;
     font-size: 20px;
     display: grid;
-
 }
 
 form * {
@@ -103,7 +103,7 @@ form label {
 
 form input,
 form textarea {
-    color: white;
+    color: #fff;
     background-color: transparent;
     padding: 5px;
     font-size: 16px;
@@ -112,14 +112,13 @@ form textarea {
 }
 
 form button {
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     padding: 5px;
     width: 200px;
     text-align: center;
-    display: block;
-    color: white;
+    color: #fff;
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid #fff;
 }
 
 form button span {
@@ -129,8 +128,9 @@ form button span {
 }
 
 form button:hover {
-
-    color: black;
-    background-color: white;
-    border: 1px solid white;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
 }
+
+/* ---------- */

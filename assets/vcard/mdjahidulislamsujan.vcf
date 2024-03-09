@@ -1,0 +1,31 @@
+BEGIN:VCARD
+VERSION:4.0
+
+FN:Md. Jahidul Islam Sujan
+N:Sujan;Md. Jahidul Islam;;;
+GENDER:M
+BDAY:--1128
+KIND:individual
+
+TEL;TYPE=CELL:+8801784263063
+TEL;TYPE=WORK:+8801956185620
+
+EMAIL:jahid@mdjahidulislamsujan.com
+URL:https://www.mdjahidulislamsujan.com
+
+PHOTO;MEDIATYPE=image/png:https://mrdeveloperjis.github.io/assets/images/jis-white-black-circle.png
+LOGO;MEDIATYPE=image/png:https://mrdeveloperjis.github.io/assets/images/jis-white-black-circle.png
+
+ADR;TYPE=home:;;Agrabad;Chattogram;;4100;Bangladesh
+
+ORG:NEXTFOT
+TITLE:Founder
+ROLE:Web Developer, Web Analytics, Web Optimizer.
+
+NOTE: Hello
+
+LANG:en-US,bn-BD
+TZ:Bangladesh/Dhaka
+SOURCE:https://mrdeveloperjis.github.io/assets/vcard/mdjahidulislamsujan.vcf
+
+END:VCARD
