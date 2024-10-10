@@ -24,7 +24,7 @@
 /* main contents */
 
 main {
-    max-width: min(256px, 80vw);
+    width: min(256px, 80vw);
     max-height: min(512px, 72vh);
     overflow-x: hidden;
     overflow-y: scroll;
