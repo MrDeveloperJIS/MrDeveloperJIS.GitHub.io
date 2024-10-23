@@ -70,19 +70,19 @@ main {
 
 .link-rows {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 10px 15px;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .link {
-    width: 30px; 
-    height: 30px; 
+    width: 30px;
+    height: 30px;
 }
 
 .link img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 /* ------------ */

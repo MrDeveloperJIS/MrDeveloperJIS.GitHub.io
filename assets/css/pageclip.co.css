@@ -1,5 +1,5 @@
 .pageclip-form {
-    position: relative
+    position: relative;
 }
 
 .pageclip-form__success {
@@ -13,18 +13,18 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
 
 .pageclip-form__success__message {
     font-size: 2rem;
     text-align: center;
     transform-origin: center;
-    animation: .3s linear none a
+    animation: .3s linear none a;
 }
 
 .pageclip-form__submit {
-    position: relative
+    position: relative;
 }
 
 .pageclip-form__submit:after {
@@ -43,7 +43,7 @@
     top: 50%;
     margin-left: -10px;
     margin-top: -10px;
-    z-index: 2
+    z-index: 2;
 }
 
 .pageclip-form__submit.pageclip-form__submit--dark-loader:after {
@@ -52,70 +52,70 @@
 }
 
 .pageclip-form__submit.pageclip-form__submit--start-loading:after {
-    animation: .1s linear none a
+    animation: .1s linear none a;
 }
 
 .pageclip-form__submit.pageclip-form__submit--start-loading>span {
-    animation: .1s linear none c
+    animation: .1s linear none c;
 }
 
 .pageclip-form__submit.pageclip-form__submit--loading:after {
     transform: translateZ(0);
-    animation: 1.2s linear infinite d
+    animation: 1.2s linear infinite d;
 }
 
 .pageclip-form__submit.pageclip-form__submit--loading>span {
-    opacity: 0
+    opacity: 0;
 }
 
 .pageclip-form__submit.pageclip-form__submit--end-loading:after {
-    animation: .1s linear none b
+    animation: .1s linear none b;
 }
 
 .pageclip-form__submit.pageclip-form__submit--end-loading>span {
-    animation: .1s linear reverse c
+    animation: .1s linear reverse c;
 }
 
 @keyframes a {
     0% {
-        transform: scale(.01) translateZ(0)
+        transform: scale(.01) translateZ(0);
     }
 
     50% {
-        transform: scale(1.2) translateZ(0)
+        transform: scale(1.2) translateZ(0);
     }
 
     to {
-        transform: scale(1) translateZ(0)
+        transform: scale(1) translateZ(0);
     }
 }
 
 @keyframes b {
     0% {
-        transform: scale(1) translateZ(0)
+        transform: scale(1) translateZ(0);
     }
 
     to {
-        transform: scale(.01) translateZ(0)
+        transform: scale(.01) translateZ(0);
     }
 }
 
 @keyframes c {
     0% {
-        opacity: 1
+        opacity: 1;
     }
 
     to {
-        opacity: 0
+        opacity: 0;
     }
 }
 
 @keyframes d {
     0% {
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
 
     to {
-        transform: rotate(1turn)
+        transform: rotate(1turn);
     }
 }
