@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /assets/
 Crawl-Delay: 20
-Sitemap: https://mrdeveloperjis.github.io/sitemap_index.xml
+Sitemap: https://mrdeveloperjis.github.io/sitemap.xml
