@@ -26,12 +26,14 @@
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRXM3QD0GY"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GP0L6FC17M"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-NRXM3QD0GY');
+        if (window.location.hostname.endsWith('.github.io')) {
+            gtag('js', new Date());
+            gtag('config', 'G-GP0L6FC17M');
+        }
     </script>
     <!-- Google tag (gtag.js) --- done -->
 
