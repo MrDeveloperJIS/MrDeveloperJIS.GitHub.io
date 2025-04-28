@@ -10,7 +10,7 @@ const userData = {
         "Web Analytics Specialist",
         "WordPress Specialist",
         "UI & UX Design Specialist",
-        "Collaborative Problem Solver"
+        "Collaborative Problem Solver",
     ],
     userAbout: "Dedicated mentor in ICT and statistics, guiding students while professionally excelling in web design, analytics, WordPress, and UI/UX design.",
     coverAlt: "Hello World!",
