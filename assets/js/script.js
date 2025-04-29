@@ -1,3 +1,9 @@
+// ======== ======== ======== ======== ======== ======== ======== ======== //
+//                                                                         //
+//                   ALWAYS KEEP ALL THE DATA UP TO DATE                   //
+//                                                                         //
+// ======== ======== ======== ======== ======== ======== ======== ======== //
+
 // ========== User Data ==========
 const userData = {
     userName: "Md. Jahidul Islam Sujan",
@@ -30,6 +36,12 @@ const userData = {
         { href: "https://github.com/mrdeveloperjis", imgSrc: "assets/img/svg/github.svg", alt: "github", class: "icon-github" },
     ]
 };
+
+// ======== ======== ======== ======== ======== ======== ======== ======== //
+//                                                                         //
+//                       NEVER MODIFY ANY CODE BELOW                       //
+//                                                                         //
+// ======== ======== ======== ======== ======== ======== ======== ======== //
 
 // ========== Selectors ==========
 const coverPicBox = document.querySelector('.cover-pic');
@@ -147,3 +159,9 @@ function startTypingEffect(titles) {
 
     setTimeout(() => startTypingEffect(titles), typingSpeed);
 }
+
+// ======== ======== ======== ======== ======== ======== ======== ======== //
+//                                                                         //
+//                       NEVER MODIFY ANY CODE ABOVE                       //
+//                                                                         //
+// ======== ======== ======== ======== ======== ======== ======== ======== //

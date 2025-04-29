@@ -1,3 +1,9 @@
+/* ======== ======== ======== ======== ======== ======== ======== ======== */
+/*                                                                         */
+/*                     ADJUST THE STYLINGS ACCORDINGLY                     */
+/*                                                                         */
+/* ======== ======== ======== ======== ======== ======== ======== ======== */
+
 /* ========== Google Fonts Import ========== */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
@@ -186,7 +192,7 @@ main.active-gradient::before {
 
 /* ========== Icon Styles ========== */
 .icon {
-    color: white;
+    color: var(--white);
     line-height: 0;
     width: 1.75em;
     height: 1.75em;
@@ -280,4 +286,4 @@ main.active-gradient::before {
     background: linear-gradient(135deg, #333333 0%, #000000 100%);
 }
 
-/* ========== End of Styles ========== */
+/* ======== ======== ======== ======== ======== ======== ======== ======== */
