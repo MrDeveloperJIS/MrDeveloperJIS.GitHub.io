@@ -9,7 +9,6 @@ const userData = {
     userName: "Md. Jahidul Islam Sujan",
     userTitles: [
         "Mentor - ICT Flow by Jahid",
-        "Mentor - Statistics Kingdom",
         "Passionate Educator",
         "Web Designer & Developer",
         "Web Analyst & Optimizer",

@@ -5,9 +5,11 @@
 /* ======== ======== ======== ======== ======== ======== ======== ======== */
 
 /* ========== Google Fonts Import ========== */
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 /* ========== Root Variables ========== */
+
 :root {
     --black: #0c0c0c;
     --white: #f0f8ff;
@@ -15,6 +17,7 @@
 }
 
 /* ========== Global Styles ========== */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,12 +26,14 @@
 }
 
 /* ========== Scrollbar Styling ========== */
+
 ::-webkit-scrollbar {
     display: none;
     width: 0;
 }
 
 /* ========== Body Styles ========== */
+
 body {
     background-color: var(--black);
     display: flex;
@@ -39,6 +44,7 @@ body {
 }
 
 /* ========== Main Container Styles ========== */
+
 main {
     background-color: var(--white);
     width: 300px;
@@ -52,6 +58,7 @@ main {
 }
 
 /* ========== Gradient Animation with Spinning Effect ========== */
+
 main::after,
 main::before {
     content: '';
@@ -93,6 +100,7 @@ main.active-gradient::before {
 }
 
 /* ========== Cover & Profile Image Styles ========== */
+
 .cover-pic {
     width: 100%;
     height: 150px;
@@ -125,6 +133,7 @@ main.active-gradient::before {
 }
 
 /* ========== Name & Title Styles ========== */
+
 .name {
     font-size: 1.4em;
     font-weight: bold;
@@ -144,6 +153,7 @@ main.active-gradient::before {
 }
 
 /* ========== Blinking Cursor Animation ========== */
+
 .title::after {
     content: "|";
     animation: blink 1s infinite;
@@ -164,6 +174,7 @@ main.active-gradient::before {
 }
 
 /* ========== Separator Line Styles ========== */
+
 .separator {
     width: 60%;
     height: 1px;
@@ -172,6 +183,7 @@ main.active-gradient::before {
 }
 
 /* ========== Bio Section Styles ========== */
+
 .bio {
     font-size: 0.9em;
     width: 90%;
@@ -180,6 +192,7 @@ main.active-gradient::before {
 }
 
 /* ========== Social Icons Section Styles ========== */
+
 .social {
     width: 75%;
     height: 4.2em;
@@ -191,6 +204,7 @@ main.active-gradient::before {
 }
 
 /* ========== Icon Styles ========== */
+
 .icon {
     color: var(--white);
     line-height: 0;
@@ -210,18 +224,21 @@ main.active-gradient::before {
 }
 
 /* ========== Hidden Icon Styles ========== */
+
 .icon-hidden {
     visibility: hidden;
     opacity: 0;
 }
 
 /* ========== Icon Image Styles ========== */
+
 .icon img {
     max-width: 60%;
     max-height: 60%;
 }
 
 /* ========== Skeleton Animation Styles ========== */
+
 .skeleton {
     background-color: #e0e0e0;
     background-image: linear-gradient(90deg, #e0e0e0 0%, #cecece 50%, #e0e0e0 100%);
@@ -230,6 +247,7 @@ main.active-gradient::before {
 }
 
 /* ========== Shimmering Animation for Skeletons ========== */
+
 .skeleton.title::after {
     content: "";
     visibility: hidden;
@@ -246,6 +264,7 @@ main.active-gradient::before {
 }
 
 /* ========== Icon Specific Backgrounds ========== */
+
 .icon-globe {
     background: linear-gradient(135deg, #0A66C2 0%, #004182 100%);
 }
