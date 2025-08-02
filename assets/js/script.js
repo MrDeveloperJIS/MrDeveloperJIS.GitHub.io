@@ -17,8 +17,8 @@ const userData = {
         "UI & UX Design Specialist",
         "Collaborative Problem Solver",
     ],
-    userAbout: "Dedicated mentor in ICT and statistics, guiding students while professionally excelling in web design, analytics, WordPress, and UI/UX design.",
-    coverAlt: "Hello World!",
+    userAbout: "Passionate educator & WordPress specialist combining UX, analytics, and dev skills to mentor others and craft impactful web experiences.",
+    coverAlt: "Free Palestine, Free Gaza.",
     coverUrl: "assets/img/cover.png",
     profileAlt: "Jahid",
     profileUrl: "assets/img/Jahid.png",
@@ -66,13 +66,9 @@ let currentTitle = "";
 let isDeleting = false;
 
 // ========== Social Section Loading ==========
-// Step 1: Remove skeleton class after 1s
-// Step 2: Insert skeleton icons
-// Step 3: Replace with actual icons after another 1s
-setTimeout(() => {
-    document.querySelectorAll(".social").forEach(el => el.classList.remove("skeleton"));
-    insertSocialIcons();
-}, 1000);
+// Step 1: Insert skeleton icons immediately
+// Step 2: Replace with actual icons after 2s
+insertSocialIcons();
 
 // ========== After 2s ==========
 // Insert user details and activate gradient
@@ -98,14 +94,14 @@ function insertUserDetails() {
 function insertSocialIcons() {
     socialBox.innerHTML = "";
 
-    // Step 1: Insert fake skeleton icons
+    // Step 1: Insert skeleton icons only
     for (let i = 0; i < userData.socialLinks.length; i++) {
         const skeletonDiv = document.createElement('div');
-        skeletonDiv.className = 'icon skeleton';
+        skeletonDiv.className = 'icon skeleton'; // Skeleton only on icons
         socialBox.appendChild(skeletonDiv);
     }
 
-    // Step 2: After 1 second, replace skeletons with real icons
+    // Step 2: Replace skeletons with real icons after 2s
     setTimeout(() => {
         socialBox.innerHTML = "";
         userData.socialLinks.forEach(link => {
@@ -121,7 +117,7 @@ function insertSocialIcons() {
             a.appendChild(img);
             socialBox.appendChild(a);
         });
-    }, 1000);
+    }, 2000);
 }
 
 // Remove Skeleton Classes

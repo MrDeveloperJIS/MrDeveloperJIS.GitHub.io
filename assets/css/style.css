@@ -10,10 +10,27 @@
 
 /* ========== Root Variables ========== */
 
+/* Default: Light Mode */
 :root {
+    --primary-color: #4169e1;   /* Royal Blue */
     --black: #0c0c0c;
     --white: #f0f8ff;
-    --royal-blue: #4169e1;
+    --bg-color: #0c0c0c;
+    --text-color: #0c0c0c;
+    --card-bg: #f0f8ff;
+    --box-shadow: #0003;
+    --border-color: #f0f8ff;
+    --skeleton-bg1: #e0e0e0;
+    --skeleton-bg2: #cecece;
+}
+
+/* Dark Mode Overrides */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #f0f8ff;
+        --card-bg: #0c0c0c;
+        --box-shadow: #fffa;
+    }
 }
 
 /* ========== Global Styles ========== */
@@ -23,38 +40,40 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
+    /* outline: 1px solid red; */
 }
 
 /* ========== Scrollbar Styling ========== */
 
 ::-webkit-scrollbar {
-    display: none;
     width: 0;
+    height: 0;
 }
 
 /* ========== Body Styles ========== */
 
 body {
-    background-color: var(--black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 99vh;
-    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    align-content: center;
 }
 
 /* ========== Main Container Styles ========== */
 
 main {
-    background-color: var(--white);
+    margin: auto;
     width: 300px;
     height: auto;
-    min-height: 480px;
+    min-height: 500px;
     max-height: 90vh;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 16px;
-    line-height: 1.5em;
+    text-align: center;
     position: relative;
+    color: var(--text-color);
+    background-color: var(--card-bg);
+    box-shadow: 0 0 8px 0 var(--box-shadow);
 }
 
 /* ========== Gradient Animation with Spinning Effect ========== */
@@ -62,9 +81,9 @@ main {
 main::after,
 main::before {
     content: '';
-    position: absolute;
-    height: calc(100% + 5px);
     width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
@@ -75,7 +94,7 @@ main::before {
 main.active-gradient::after,
 main.active-gradient::before {
     animation: 3s spin linear infinite;
-    background-image: conic-gradient(from var(--angle), var(--black), var(--white), var(--royal-blue));
+    background-image: conic-gradient(from var(--angle), var(--black), var(--white), var(--primary-color));
 }
 
 main.active-gradient::before {
@@ -104,7 +123,7 @@ main.active-gradient::before {
 .cover-pic {
     width: 100%;
     height: 150px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
     background-color: var(--black);
 }
 
@@ -112,17 +131,17 @@ main.active-gradient::before {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 .profile-pic {
     width: 150px;
     height: 150px;
+    position: relative;
     border-radius: 50%;
     margin: -75px auto 20px auto;
-    border: 3px solid var(--white);
-    box-shadow: 0px 0px 8px 0px #00000040;
-    position: relative;
+    border: 3px solid var(--border-color);
+    box-shadow: 0 0 8px 0 var(--box-shadow);
 }
 
 .profile-pic img {
@@ -140,7 +159,7 @@ main.active-gradient::before {
     width: 90%;
     height: 1.2em;
     margin: 10px auto;
-    color: var(--royal-blue);
+    color: var(--primary-color);
 }
 
 .title {
@@ -149,7 +168,6 @@ main.active-gradient::before {
     width: 90%;
     height: 1.28em;
     margin: 10px auto;
-    color: var(--black);
 }
 
 /* ========== Blinking Cursor Animation ========== */
@@ -179,7 +197,7 @@ main.active-gradient::before {
     width: 60%;
     height: 1px;
     margin: auto;
-    background: linear-gradient(273deg, var(--white), var(--royal-blue), var(--white));
+    background: linear-gradient(273deg, var(--card-bg), var(--primary-color), var(--card-bg));
 }
 
 /* ========== Bio Section Styles ========== */
@@ -187,7 +205,8 @@ main.active-gradient::before {
 .bio {
     font-size: 0.9em;
     width: 90%;
-    height: 6.8em;
+    height: 80px;
+    line-height: 1.28em;
     margin: 10px auto;
 }
 
@@ -195,28 +214,28 @@ main.active-gradient::before {
 
 .social {
     width: 75%;
-    height: 4.2em;
-    margin: 10px auto 20px auto;
+    height: auto;
+    margin: auto;
     display: flex;
     gap: 10px;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* ========== Icon Styles ========== */
 
 .icon {
-    color: var(--white);
+    width: 28px;
+    height: 28px;
     line-height: 0;
-    width: 1.75em;
-    height: 1.75em;
+    border-radius: 4px;
     text-align: center;
     align-content: center;
-    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px var(--box-shadow);
 }
 
 .icon:hover {
-    filter: brightness(0.9);
+    filter: brightness(0.8);
 }
 
 .icon::before {
@@ -233,15 +252,15 @@ main.active-gradient::before {
 /* ========== Icon Image Styles ========== */
 
 .icon img {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 64%;
+    max-height: 64%;
 }
 
 /* ========== Skeleton Animation Styles ========== */
 
 .skeleton {
-    background-color: #e0e0e0;
-    background-image: linear-gradient(90deg, #e0e0e0 0%, #cecece 50%, #e0e0e0 100%);
+    background-color: var(--skeleton-bg1);
+    background-image: linear-gradient(90deg, var(--skeleton-bg1) 0%, var(--skeleton-bg2) 50%, var(--skeleton-bg1) 100%);
     background-size: 200% 100%;
     animation: shimmer 1s infinite;
 }
