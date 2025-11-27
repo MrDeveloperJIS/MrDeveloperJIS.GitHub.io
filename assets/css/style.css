@@ -12,7 +12,7 @@
 
 /* Default: Light Mode */
 :root {
-    --primary-color: #4169e1;   /* Royal Blue */
+    --primary-color: #4169e1;
     --black: #0c0c0c;
     --white: #f0f8ff;
     --bg-color: #0c0c0c;
@@ -205,7 +205,7 @@ main.active-gradient::before {
 .bio {
     font-size: 0.9em;
     width: 90%;
-    height: 80px;
+    height: 75px;
     line-height: 1.28em;
     margin: 10px auto;
 }

@@ -23,8 +23,8 @@ const userData = {
     profileAlt: "Jahid",
     profileUrl: "assets/img/Jahid.png",
     socialLinks: [
-        { href: "https://www.mrjis.com", imgSrc: "assets/img/svg/globe.svg", alt: "website", class: "icon-globe" },
-        { href: "mailto:info@mrjis.com", imgSrc: "assets/img/svg/envelope.svg", alt: "email", class: "icon-envelope" },
+        { href: "https://www.mdjahidulislamsujan.com", imgSrc: "assets/img/svg/globe.svg", alt: "website", class: "icon-globe" },
+        { href: "mailto:mdjahidulislamsujan@outlook.com", imgSrc: "assets/img/svg/envelope.svg", alt: "email", class: "icon-envelope" },
         { href: "tel:+8801956185620", imgSrc: "assets/img/svg/phone.svg", alt: "phone", class: "icon-telephone" },
         { href: "https://wa.me/+8801956185620", imgSrc: "assets/img/svg/whatsapp.svg", alt: "whatsapp", class: "icon-whatsapp" },
         { href: "https://t.me/mrdeveloperjis", imgSrc: "assets/img/svg/telegram.svg", alt: "telegram", class: "icon-telegram" },
