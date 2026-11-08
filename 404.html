@@ -4,37 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- meta data -->
-    <meta name="author" content="Md. Jahidul Islam Sujan">
-    <!-- no index -->
-    <meta name="robots" content="noindex, nofollow">
-    <!-- auto reload and redirect -->
-    <meta http-equiv="refresh" content="0; url=https://mrdeveloperjis.github.io">
-    <!-- favicon -->
-    <link rel="shortcut icon" href="assets/img/JIS-favicon.png" type="image/x-icon">
-    <!-- page title -->
     <title>404 - Not Found</title>
-    <!-- custom css -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="refresh" content="3; url=/">
+    <link rel="icon" href="/assets/img/JIS-favicon.png" type="image/png">
     <style>
         * {
             margin: 0;
             padding: 0;
         }
+
         body {
-            background: #0c0c0c url("assets/img/404.png") center center / cover no-repeat fixed;
+            background: #0c0c0c url("/assets/img/404.png") center center / cover no-repeat fixed;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            clip-path: inset(50%);
+            white-space: nowrap;
+        }
+
+        .sr-only:focus-visible {
+            width: auto;
+            height: auto;
+            margin: 0;
+            padding: 8px 12px;
+            top: 8px;
+            left: 8px;
+            clip-path: none;
+            background: #f0f8ff;
+            color: #0c0c0c;
         }
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GP0L6FC17M"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        if (window.location.hostname.endsWith('.github.io')) {
-            gtag('js', new Date());
-            gtag('config', 'G-GP0L6FC17M');
-        }
-    </script>
-    <!-- Google tag (gtag.js) --- done -->
+    <script src="/assets/js/analytics.js" defer></script>
 </head>
+
+<body>
+    <main>
+        <h1 class="sr-only">404 - Page not found</h1>
+        <a class="sr-only" href="/">Go to the home page</a>
+    </main>
+</body>
 
 </html>

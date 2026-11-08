@@ -1,16 +1,21 @@
-/* ======== ======== ======== ======== ======== ======== ======== ======== */
-/*                                                                         */
-/*                     ADJUST THE STYLINGS ACCORDINGLY                     */
-/*                                                                         */
-/* ======== ======== ======== ======== ======== ======== ======== ======== */
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/merriweather-latin-400-normal.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
-/* ========== Google Fonts Import ========== */
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/merriweather-latin-700-normal.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
-
-/* ========== Root Variables ========== */
-
-/* Default: Light Mode */
 :root {
     --primary-color: #4169e1;
     --black: #0c0c0c;
@@ -24,7 +29,6 @@
     --skeleton-bg2: #cecece;
 }
 
-/* Dark Mode Overrides */
 @media (prefers-color-scheme: dark) {
     :root {
         --text-color: #f0f8ff;
@@ -33,50 +37,54 @@
     }
 }
 
-/* ========== Global Styles ========== */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
-    /* outline: 1px solid red; */
 }
-
-/* ========== Scrollbar Styling ========== */
 
 ::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
 
-/* ========== Body Styles ========== */
+html {
+    scrollbar-width: none;
+}
 
 body {
+    font-family: 'Merriweather', Georgia, serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     min-height: 100vh;
+    min-height: 100dvh;
     align-content: center;
 }
 
-/* ========== Main Container Styles ========== */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+/* ===== Card ===== */
 
 main {
     margin: auto;
-    width: 300px;
-    height: auto;
+    width: min(300px, 92vw);
     min-height: 500px;
-    max-height: 90vh;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     position: relative;
     color: var(--text-color);
     background-color: var(--card-bg);
     box-shadow: 0 0 8px 0 var(--box-shadow);
 }
-
-/* ========== Gradient Animation with Spinning Effect ========== */
 
 main::after,
 main::before {
@@ -109,29 +117,18 @@ main.active-gradient::before {
 }
 
 @keyframes spin {
-    from {
-        --angle: 0deg;
-    }
-
     to {
         --angle: 360deg;
     }
 }
 
-/* ========== Cover & Profile Image Styles ========== */
+/* ===== Images ===== */
 
 .cover-pic {
     width: 100%;
     height: 150px;
     border-radius: 8px 8px 0 0;
     background-color: var(--black);
-}
-
-.cover-pic img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
 }
 
 .profile-pic {
@@ -144,38 +141,45 @@ main.active-gradient::before {
     box-shadow: 0 0 8px 0 var(--box-shadow);
 }
 
+.cover-pic img,
 .profile-pic img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.cover-pic img {
+    border-radius: 8px 8px 0 0;
+}
+
+.profile-pic img {
     border-radius: 50%;
 }
 
-/* ========== Name & Title Styles ========== */
+/* ===== Text ===== */
 
 .name {
     font-size: 1.4em;
     font-weight: bold;
     width: 90%;
-    height: 1.2em;
+    min-height: 1.2em;
     margin: 10px auto;
     color: var(--primary-color);
 }
 
 .title {
+    position: relative;
     font-size: 1.1em;
     font-weight: 600;
     width: 90%;
-    height: 1.28em;
+    min-height: 1.28em;
     margin: 10px auto;
 }
 
-/* ========== Blinking Cursor Animation ========== */
-
-.title::after {
+.typed::after {
     content: "|";
     animation: blink 1s infinite;
-    visibility: visible;
 }
 
 @keyframes blink {
@@ -191,38 +195,32 @@ main.active-gradient::before {
     }
 }
 
-/* ========== Separator Line Styles ========== */
-
 .separator {
     width: 60%;
     height: 1px;
     margin: auto;
+    border: 0;
     background: linear-gradient(273deg, var(--card-bg), var(--primary-color), var(--card-bg));
 }
-
-/* ========== Bio Section Styles ========== */
 
 .bio {
     font-size: 0.9em;
     width: 90%;
-    height: 75px;
+    min-height: 75px;
     line-height: 1.28em;
     margin: 10px auto;
 }
 
-/* ========== Social Icons Section Styles ========== */
+/* ===== Social icons ===== */
 
 .social {
     width: 75%;
-    height: auto;
     margin: auto;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-/* ========== Icon Styles ========== */
 
 .icon {
     width: 28px;
@@ -231,58 +229,17 @@ main.active-gradient::before {
     border-radius: 4px;
     text-align: center;
     align-content: center;
-    box-shadow: 0px 0px 2px 0px var(--box-shadow);
+    box-shadow: 0 0 2px 0 var(--box-shadow);
 }
 
 .icon:hover {
     filter: brightness(0.8);
 }
 
-.icon::before {
-    vertical-align: middle;
-}
-
-/* ========== Hidden Icon Styles ========== */
-
-.icon-hidden {
-    visibility: hidden;
-    opacity: 0;
-}
-
-/* ========== Icon Image Styles ========== */
-
 .icon img {
     max-width: 64%;
     max-height: 64%;
 }
-
-/* ========== Skeleton Animation Styles ========== */
-
-.skeleton {
-    background-color: var(--skeleton-bg1);
-    background-image: linear-gradient(90deg, var(--skeleton-bg1) 0%, var(--skeleton-bg2) 50%, var(--skeleton-bg1) 100%);
-    background-size: 200% 100%;
-    animation: shimmer 1s infinite;
-}
-
-/* ========== Shimmering Animation for Skeletons ========== */
-
-.skeleton.title::after {
-    content: "";
-    visibility: hidden;
-}
-
-@keyframes shimmer {
-    0% {
-        background-position: 200% 0;
-    }
-
-    100% {
-        background-position: -200% 0;
-    }
-}
-
-/* ========== Icon Specific Backgrounds ========== */
 
 .icon-globe {
     background: linear-gradient(135deg, #0A66C2 0%, #004182 100%);
@@ -292,10 +249,7 @@ main.active-gradient::before {
     background: linear-gradient(135deg, #0088cc 0%, #006699 100%);
 }
 
-.icon-telephone {
-    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
-}
-
+.icon-telephone,
 .icon-whatsapp {
     background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
 }
@@ -324,4 +278,47 @@ main.active-gradient::before {
     background: linear-gradient(135deg, #333333 0%, #000000 100%);
 }
 
-/* ======== ======== ======== ======== ======== ======== ======== ======== */
+/* ===== Skeleton (only when JS is available) ===== */
+
+@media (scripting: enabled) {
+
+    .loading :is(.cover-pic, .profile-pic, .name, .title, .separator, .bio, .icon) {
+        color: transparent;
+        background-color: var(--skeleton-bg1);
+        background-image: linear-gradient(90deg, var(--skeleton-bg1) 0%, var(--skeleton-bg2) 50%, var(--skeleton-bg1) 100%);
+        background-size: 200% 100%;
+        animation: shimmer 1s infinite;
+    }
+
+    .loading img,
+    .loading .typed::after {
+        visibility: hidden;
+    }
+
+    .loading .social {
+        pointer-events: none;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    main.active-gradient::after,
+    main.active-gradient::before,
+    .loading :is(.cover-pic, .profile-pic, .name, .title, .separator, .bio, .icon) {
+        animation: none;
+    }
+
+    .typed::after {
+        content: none;
+    }
+}
