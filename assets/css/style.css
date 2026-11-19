@@ -309,16 +309,3 @@ main.active-gradient::before {
         background-position: -200% 0;
     }
 }
-
-@media (prefers-reduced-motion: reduce) {
-
-    main.active-gradient::after,
-    main.active-gradient::before,
-    .loading :is(.cover-pic, .profile-pic, .name, .title, .separator, .bio, .icon) {
-        animation: none;
-    }
-
-    .typed::after {
-        content: none;
-    }
-}

@@ -7,7 +7,6 @@
     const typed = card.querySelector('.typed');
     const titles = [...card.querySelectorAll('.titles li')].map(li => li.textContent.trim());
     const images = [...card.querySelectorAll('.cover-pic img, .profile-pic img')];
-    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -43,7 +42,7 @@
         card.classList.add('active-gradient');
         card.removeAttribute('aria-busy');
 
-        if (!reducedMotion && titles.length) {
+        if (titles.length) {
             typed.textContent = '';
             setTimeout(type, TYPING_START_MS);
         }
