@@ -60,7 +60,9 @@
                     <img src="assets/img/cover.png" alt="Free Palestine, Free Gaza." width="300" height="150" fetchpriority="high">
                 </div>
                 <div class="profile-pic">
-                    <img src="assets/img/Jahid.png" alt="Md. Jahidul Islam Sujan" width="150" height="150" fetchpriority="high">
+                    <button type="button" class="profile-btn" aria-label="View profile picture larger" aria-haspopup="dialog">
+                        <img src="assets/img/Jahid.png" alt="Md. Jahidul Islam Sujan" width="150" height="150" fetchpriority="high">
+                    </button>
                 </div>
                 <h1 class="name">Md. Jahidul Islam Sujan</h1>
                 <div class="title">
@@ -96,6 +98,13 @@
             </nav>
         </article>
     </main>
+
+    <dialog class="lightbox" aria-label="Profile picture">
+        <div class="lightbox-frame">
+            <img src="assets/img/Jahid.png" alt="Md. Jahidul Islam Sujan">
+        </div>
+        <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+    </dialog>
 </body>
 
 </html>

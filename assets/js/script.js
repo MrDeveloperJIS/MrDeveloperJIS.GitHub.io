@@ -34,6 +34,19 @@
         setTimeout(type, delay, index, length, deleting);
     }
 
+    const lightbox = document.querySelector('.lightbox');
+    const frame = lightbox.querySelector('.lightbox-frame');
+    const openBtn = card.querySelector('.profile-btn');
+
+    openBtn.addEventListener('click', () => {
+        if (card.classList.contains('loading')) return;
+        lightbox.showModal();
+    });
+
+    lightbox.addEventListener('click', e => {
+        if (!frame.contains(e.target)) lightbox.close();
+    });
+
     Promise.all([
         Promise.race([Promise.all(images.map(imageReady)), wait(IMAGE_TIMEOUT_MS)]),
         wait(MIN_LOADING_MS),
